@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cz.muni.fi.pb138.logic;
+package cz.muni.fi.pb138.db.entity;
+
+import java.util.List;
 
 /**
  *
  * @author martin
  */
-public class Action {
-    private String type; //goal, pass, chance, whatever
-    private Player player;
-    private int minute;
-    
+public class Team {
+  private String name; 
+  private String logoPath;
 }

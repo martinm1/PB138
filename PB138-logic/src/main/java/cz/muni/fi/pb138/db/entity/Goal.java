@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cz.muni.fi.pb138.logic;
+package cz.muni.fi.pb138.db.entity;
 
 /**
  *
- * @author martin
+ * @author xjanco1
  */
-public class Main {
-    
+public class Goal {
+    private int minute;
+    private String scorer;
+    private String firstAssist;
+    private String secondAssist;
 }

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+
+	<teams>
+		<team>
+			<name>Bílí Tygři Liberec</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>BK Mladá Boleslav</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>HC Dynamo Pardubice</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>HC Energie Karlovy Vary</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>HC Kometa Brno</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>HC Oceláři Třinec</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>HC Olomouc</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>HC Sparta Praha</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>HC Škoda Plzeň</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>HC VERVA Litvínov</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>HC VÍTKOVICE RIDERA</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>Mountfield HK</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>Piráti Chomutov</name>
+			<logo></logo>
+		</team>
+		<team>
+			<name>PSG Zlín</name>
+			<logo></logo>
+		</team>
+	</teams>
+</database>

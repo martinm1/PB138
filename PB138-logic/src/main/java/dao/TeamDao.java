@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cz.muni.fi.pb138.logic;
+package dao;
 
+import cz.muni.fi.pb138.db.entity.Team;
+import java.util.List;
 
 /**
  *
- * @author martin
+ * @author xjanco1
  */
-public class Player {
-  private Long id;
-  private String name; 
-  private String commentary;
+public interface TeamDao {
+    public Team findTeam(String name);
+    public List<Team> findAllTeams();
 }
