@@ -1,62 +1,444 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-
-	<teams>
-		<team>
-			<name>Bílí Tygři Liberec</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>BK Mladá Boleslav</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>HC Dynamo Pardubice</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>HC Energie Karlovy Vary</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>HC Kometa Brno</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>HC Oceláři Třinec</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>HC Olomouc</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>HC Sparta Praha</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>HC Škoda Plzeň</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>HC VERVA Litvínov</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>HC VÍTKOVICE RIDERA</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>Mountfield HK</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>Piráti Chomutov</name>
-			<logo></logo>
-		</team>
-		<team>
-			<name>PSG Zlín</name>
-			<logo></logo>
-		</team>
-	</teams>
+    <teams>
+        <team>
+            <name>Bílí Tygři Liberec</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>BK Mladá Boleslav</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>HC Dynamo Pardubice</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>HC Energie Karlovy Vary</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>HC Kometa Brno</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>HC Oceláři Třinec</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>HC Olomouc</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>HC Sparta Praha</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>HC Škoda Plzeň</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>HC VERVA Litvínov</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>HC VÍTKOVICE RIDERA</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>Mountfield HK</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>Piráti Chomutov</name>
+            <logo></logo>
+        </team>
+        <team>
+            <name>PSG Zlín</name>
+            <logo></logo>
+        </team>
+    </teams>
+    <matches>
+        <match>
+            <date>9.9.2016</date>
+            <homeTeam>HC VÍTKOVICE RIDERA</homeTeam>
+            <awayTeam>HC Sparta Praha</awayTeam>
+            <homePlayers>
+                <player>Bartošák</player>
+                <player>L.Kovář</player>
+                <player>Baranka</player>
+                <player>Klok</player>
+                <player>Sloboda</player>
+                <player>Urbanec</player>
+                <player>Výtisk</player>
+                <player>D.Krenželok</player>
+                <player>P.Zdráhal</player>
+                <player>O.Roman</player>
+                <player>Květoň</player>
+                <player>Vandas</player>
+                <player>Kolouch</player>
+                <player>Kucsera</player>
+                <player>Olesz</player>
+                <player>Illéš</player>
+                <player>Szturc</player>
+                <player>Tomi</player>
+                <player>Balán</player>
+                <player>Kurovský</player>
+                <player>E.Němec</player>
+            </homePlayers>
+            <awayPlayers>
+                <player>Pöpperle</player>
+                <player>Čajkovský</player>
+                <player>Mikuš</player>
+                <player>Eminger</player>
+                <player>Barinka</player>
+                <player>Kalina</player>
+                <player>Švrček</player>
+                <player>Hrbas</player>
+                <player>Piskáček</player>
+                <player>Ihnačák</player>
+                <player>P. Vrána</player>
+                <player>Ružička</player>
+                <player>Forman</player>
+                <player>Cingel</player>
+                <player>Uher</player>
+                <player>Netík</player>
+                <player>Pech</player>
+                <player>Kumstát</player>
+                <player>Kudrna</player>
+                <player>Černoch</player>
+                <player>O. Procházka</player>
+            </awayPlayers>
+            <goals>
+                <homeTeamGoals>
+                    <goal>
+                        <minute>8</minute>
+                        <scorer>Vandas</scorer>
+                    </goal>
+                    <goal>
+                        <minute>9</minute>
+                        <scorer>Roman</scorer>
+                        <assist>Kucsera</assist>
+                        <assist>Květoň</assist>
+                    </goal>
+                    <goal>
+                        <minute>65</minute>
+                        <scorer>Szturc</scorer>
+                    </goal>
+                </homeTeamGoals>
+                <awayTeamGoals>
+                    <goal>
+                        <minute>12</minute>
+                        <scorer>Netík</scorer>
+                        <assist>Kumstát</assist>
+                        <assist>Pech</assist>
+                    </goal>
+                    <goal>
+                        <minute>45</minute>
+                        <scorer>Netík</scorer>
+                        <assist>Kumstát</assist>
+                    </goal>
+                </awayTeamGoals>
+            </goals>
+            <homeTeamShots>33</homeTeamShots>
+            <awayTeamShots>27</awayTeamShots>
+            <spectators>5755</spectators>
+            <description>V prvním kole nové sezony Tipsport extraligy zajížděli sparťanští hokejisté na led do
+                ostravských Vítkovic, kde se odehrála strhující podívaná. Domácí vedli už v polovině první třetiny 2:0,
+                ale Pražané poté začali hrát více agresivněji a odměnou jim bylo vyrovnání z hole Tomáše Netíka. Duel
+                nerozhodlo ani následné prodloužení, které se hraje novým systémem 3 proti 3. Oba týmy si tak vyzkoušely
+                dovednostní soutěž, ve které rozhodl domácí Roman Szturc a zařídil tak svému výběru bonusový bod za
+                výhru 3:2 po samostatných nájezdech.
+            </description>
+        </match>
+        <match>
+            <date>11.9.2016</date>
+            <homeTeam>HC Dynamo Pardubice</homeTeam>
+            <awayTeam>HC Sparta Praha</awayTeam>
+            <homePlayers>
+                <player>Štěpánek</player>
+                <player>Ščotka</player>
+                <player>Schaus</player>
+                <player>Havlík</player>
+                <player>Leduc</player>
+                <player>Ovčačík</player>
+                <player>Bokroš</player>
+                <player>Rýgl</player>
+                <player>Rolinek</player>
+                <player>Hodgman</player>
+                <player>P. Sýkora</player>
+                <player>Hubáček</player>
+                <player>Nahodil</player>
+                <player>Zadina</player>
+                <player>Klimenta</player>
+                <player>Tomášek</player>
+                <player>Bárta</player>
+                <player>Mallet</player>
+                <player>T. Kaut</player>
+                <player>Rapáč</player>
+            </homePlayers>
+            <awayPlayers>
+                <player>Pöpperle</player>
+                <player>Mikuš</player>
+                <player>Čajkovský</player>
+                <player>Barinka</player>
+                <player>Eminger</player>
+                <player>Švrček</player>
+                <player>Kalina</player>
+                <player>Hrbas</player>
+                <player>Ružička</player>
+                <player>P. Vrána</player>
+                <player>Kudrna</player>
+                <player>Uher</player>
+                <player>Cingel</player>
+                <player>Forman</player>
+                <player>Kumstát</player>
+                <player>Pech</player>
+                <player>Netík</player>
+                <player>Volek</player>
+                <player>Černoch</player>
+                <player>Komárek</player>
+            </awayPlayers>
+            <goals>
+                <homeTeamGoals>
+                    <goal>
+                        <minute>12</minute>
+                        <scorer>Nahodil</scorer>
+                        <assist>Hogman</assist>
+                        <assist>Rolinek</assist>
+                    </goal>
+                    <goal>
+                        <minute>45</minute>
+                        <scorer>Ovčačík</scorer>
+                        <assist>Schaus</assist>
+                        <assist>T.Kaut</assist>
+                    </goal>
+                </homeTeamGoals>
+                <awayTeamGoals>
+                    <goal>
+                        <minute>11</minute>
+                        <scorer>Forman</scorer>
+                        <assist>Uher</assist>
+                        <assist>Netík</assist>
+                    </goal>
+                    <goal>
+                        <minute>18</minute>
+                        <scorer>Cingel</scorer>
+                        <assist>Mikuš</assist>
+                        <assist>Forman</assist>
+                    </goal>
+                    <goal>
+                        <minute>41</minute>
+                        <scorer>Vrána</scorer>
+                        <assist>Pech</assist>
+                        <assist>Čajkovský</assist>
+                    </goal>
+                </awayTeamGoals>
+            </goals>
+            <homeTeamShots>18</homeTeamShots>
+            <awayTeamShots>29</awayTeamShots>
+            <spectators>7707</spectators>
+            <description>Ke druhému zápasu musela Sparta zajíždět do města perníku a zároveň chtěla odčinit páteční
+                zaváhání na vítkovickém ledě. První třetina tomu hned napovídala, když pražský tým poslal do vedení
+                útočník Miroslav Forman. Vzápětí ale Východočeši srovnali krok v přesilové hře zásluhou Nahodila. Na
+                další branky jsme museli čekat až do závěrečného dějství, ve kterém hosté navýšili gólový stav zápasu na
+                3:1. Ovšem domácí borci nezůstali pozadu, jelikož svou střelou snížil Ovčačík. Sparťané si už poté
+                utkání pohlídali a z horkého ledu Pardubic vezou cenné tři body.
+            </description>
+        </match>
+        <match>
+            <date>13.9.2016</date>
+            <homeTeam>Bílí Tygři Liberec</homeTeam>
+            <awayTeam>HC Sparta Praha</awayTeam>
+            <homePlayers>
+                <player>Lašák</player>
+                <player>Ševc</player>
+                <player>R. Šimek</player>
+                <player>Derner</player>
+                <player>Mojžíš</player>
+                <player>Jánošík</player>
+                <player>Vitásek</player>
+                <player>Plutnar</player>
+                <player>Svačina</player>
+                <player>Bulíř</player>
+                <player>Radivojevič</player>
+                <player>Bartovič</player>
+                <player>Jelínek</player>
+                <player>L. Krenželok</player>
+                <player>J. Stránský</player>
+                <player>Bližňák</player>
+                <player>Lakatoš</player>
+                <player>Špaček</player>
+                <player>Mikyska</player>
+                <player>Vlach</player>
+            </homePlayers>
+            <awayPlayers>
+                <player>Pöpperle</player>
+                <player>Mikuš</player>
+                <player>Čajkovský</player>
+                <player>Barinka</player>
+                <player>Eminger</player>
+                <player>Švrček</player>
+                <player>Kalina</player>
+                <player>Hrbas</player>
+                <player>Ružička</player>
+                <player>Vrána</player>
+                <player>Klimek</player>
+                <player>Cingel</player>
+                <player>Forman</player>
+                <player>Uher</player>
+                <player>Kumstát</player>
+                <player>Pech</player>
+                <player>Netík</player>
+                <player>Kudrna</player>
+                <player>O. Procházka</player>
+                <player>Černoch</player>
+            </awayPlayers>
+            <goals>
+                <homeTeamGoals>
+                    <goal>
+                        <minute>5</minute>
+                        <scorer>Bulíř</scorer>
+                        <assist>Radivojevič</assist>
+                        <assist>Svačina</assist>
+                    </goal>
+                    <goal>
+                        <minute>48</minute>
+                        <scorer>Jánošík</scorer>
+                        <assist>Radivojevič</assist>
+                        <assist>Bulíř</assist>
+                    </goal>
+                </homeTeamGoals>
+                <awayTeamGoals>
+                    <goal>
+                        <minute>7</minute>
+                        <scorer>Čajkovský</scorer>
+                        <assist>Cingel</assist>
+                        <assist>Ružička</assist>
+                    </goal>
+                    <goal>
+                        <minute>22</minute>
+                        <scorer>Kumstát</scorer>
+                        <assist>Pech</assist>
+                        <assist>Netík</assist>
+                    </goal>
+                    <goal>
+                        <minute>39</minute>
+                        <scorer>Klimek</scorer>
+                        <assist>Vrána</assist>
+                    </goal>
+                </awayTeamGoals>
+            </goals>
+            <homeTeamShots>33</homeTeamShots>
+            <awayTeamShots>22</awayTeamShots>
+            <spectators>5079</spectators>
+            <description>
+                Tři venkovní zápasy, sedm bodů. Taková je bilance Sparty po třech úvodních kolech nové sezony Tipsport extraligy. Pražané zvládli po vítězství v Pardubicích také duel na ledě Liberce, když v repríze finále vyhráli díky brankám Michala Čajkovského, Petra Kumstáta a Lukáše Klimka těsně 3:2. Svěřenci Zdeňka Motáka a Jiřího Vebera tak mohou být s úvodem sezony spokojení a užívat si krátký čas odpočinku. Už v pátek čeká sparťany domácí extraligová premiéra, ve které přivítají Oceláře z Třince.
+            </description>
+        </match>
+        <match>
+            <date>16.9.2016</date>
+            <homeTeam>HC Sparta Praha</homeTeam>
+            <awayTeam>HC Oceláři Třinec</awayTeam>
+            <homePlayers>
+                <player>Pöpperle </player><player>Mikuš</player><player>Čajkovský</player><player>Barinka</player><player>Eminger</player><player>Švrček</player><player>Kalina</player><player>Hrbas </player><player>Klimek</player><player>P. Vrána</player><player>Ihnačák </player><player>Ružička</player><player>Uher</player><player>Forman </player><player>Kumstát</player><player>Pech</player><player>Netík </player><player>Kudrna</player><player>Cingel</player><player>Černoch</player>
+            </homePlayers>
+            <awayPlayers>
+                <player>Hrubec </player><player>Linhart</player><player>Roth</player><player>M. Doudera</player><player>Hrabal</player><player>Galvas</player><player>Nosek </player><player>Martin Růžička</player><player>Špirko</player><player>Petružálek </player><player>Adamský</player><player>Kane</player><player>Irgl </player>(<player>C</player>)<player> </player><player>Rákos</player><player>Kreps</player><player>Dravecký </player><player>Marosz</player><player>Polanský</player><player>Hrňa</player>
+            </awayPlayers>
+            <goals>
+                <homeTeamGoals>
+                    <goal>
+                        <minute>18</minute>
+                        <scorer>Ihnačák</scorer>
+                        <assist>P. Vrána</assist>
+                        <assist>Pech</assist>
+                    </goal>
+                    <goal>
+                        <minute>36</minute>
+                        <scorer>P. Vrána</scorer>
+                        <assist>Ihnačák</assist>
+                        <assist>Pech</assist>
+                    </goal>
+                    <goal>
+                        <minute>39</minute>
+                        <scorer>Forman</scorer>
+                        <assist>Klimek</assist>
+                    </goal>
+                </homeTeamGoals>
+                <awayTeamGoals>
+                    <goal>
+                        <minute>10</minute>
+                        <scorer>Petružálek</scorer>
+                        <assist>Kane</assist>
+                        <assist>Linhart</assist>
+                    </goal>
+                    <goal>
+                        <minute>23</minute>
+                        <scorer>Rákos</scorer>
+                        <assist>Kreps</assist>
+                        <assist>Dravecký</assist>
+                    </goal>
+                    <goal>
+                        <minute>25</minute>
+                        <scorer>Roth</scorer>
+                        <assist>Hrňa</assist>
+                    </goal>
+                    <goal>
+                        <minute>65</minute>
+                        <scorer>Petružálek</scorer>
+                    </goal>
+                </awayTeamGoals>
+            </goals>
+            <homeTeamShots>28</homeTeamShots>
+            <awayTeamShots>35</awayTeamShots>
+            <spectators>5206</spectators>
+            <description>Sparta se v nové extraligové sezoně poprvé představila na domácím ledě, když v rámci čtvrtého kola hostila třinecké Oceláře. Pražané získali ze tří odehraných duelů na hřištích soupeřů cenných sedm bodů. Třinec ovšem přijel do Prahy s vysokým sebevědomím, neboť zvítězil ve všech střetnutích po šedesáti minutách. Utkání, které nabídlo mnoho dramatických momentů a dlouho vyrovnaný boj, nakonec ovládli hosté z Třince, když bonusový bod urvali v samostatných nájezdech.</description>
+        </match>
+        <match>
+            <date>18.9.2016</date>
+            <homeTeam>HC Olomouc</homeTeam>
+            <awayTeam>HC Sparta Praha</awayTeam>
+            <homePlayers>
+                <player>Konrád </player><player>Vyrůbalík</player><player>Škůrek</player><player>Staněk</player><player>Houdek</player><player>Ondrušek</player><player>Jaroměřský</player><player>Galvas </player><player>Laš</player><player>J. Knotek</player><player>Holec </player><player>Strapáč</player><player>Ostřížek</player><player>Eberle </player><player>Burian</player><player>Herman</player><player>Fořt </player><player>Skladaný</player><player>Matai</player><player>Jergl</player>
+            </homePlayers>
+            <awayPlayers>
+                <player>F. Novotný </player><player>Barinka</player><player>Čajkovský</player><player>Mikuš</player><player>Eminger</player><player>Švrček</player><player>Kalina</player><player>Piskáček </player><player>Klimek</player><player>P. Vrána</player><player>Ihnačák </player><player>Ružička</player><player>Uher</player><player>Forman </player><player>Kumstát</player><player>Pech</player><player>Netík </player><player>Černoch</player><player>Cingel</player><player>Kudrna</player>
+            </awayPlayers>
+            <goals>
+                <homeTeamGoals>
+                    <goal>
+                        <minute>9</minute>
+                        <scorer>Strapáč</scorer>
+                    </goal>
+                    <goal>
+                        <minute>37</minute>
+                        <scorer>Ostřížek</scorer>
+                    </goal>
+                    <goal>
+                        <minute>47</minute>
+                        <scorer>J. Knotek</scorer>
+                        <assist>Vyrůbalík</assist>
+                        <assist>Holec</assist>
+                    </goal>
+                </homeTeamGoals>
+                <awayTeamGoals>
+                    <goal>
+                        <minute>16</minute>
+                        <scorer>Kudrna</scorer>
+                        <assist>Černoch</assist>
+                    </goal>
+                    <goal>
+                        <minute>56</minute>
+                        <scorer>P. Vrána</scorer>
+                        <assist>Švrček</assist>
+                    </goal>
+                </awayTeamGoals>
+            </goals>
+            <homeTeamShots>33</homeTeamShots>
+            <awayTeamShots>28</awayTeamShots>
+            <spectators>5112</spectators>
+            <description>Sparťané vyjeli v rámci pátého kola Tipsport extraligy do Olomouce, odkud se ale vrací bez bodu. Svěřenci Zdeňka Motáka a Jiřího Vebera jsou tedy poprvé v extraligové sezoně bez bodového zisku. Na první olomoucký gól ještě dokázal zareagovat v první třetině Kudrna. Domácí ale přidali ještě dva góly, zatímco za Pražany se prosadil pouze Petr Vrána a Sparta tedy v Olomouci prohrála 2:3.</description>
+        </match>
+    </matches>
 </database>

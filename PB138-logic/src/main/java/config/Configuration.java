@@ -29,6 +29,7 @@ public class Configuration {
     public Document dbFileDocument() throws SAXException, IOException, ParserConfigurationException{
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
-       return builder.parse("src/main/resources/db.xml");
+        String path= getClass().getClassLoader().getResource("db.xml").getPath();
+       return builder.parse(path);
     }
 }
