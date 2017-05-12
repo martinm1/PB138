@@ -19,5 +19,9 @@ Vytvořte webový portál se statistikami hráčů a zápasů, spolu s filtrová
     Filip Dubnička: webové rozhraní
     Marek Jančo: stahování dat
     Adam Laurenčík: práce s databází
+    
 ## Diagram případů užití
 ![alt text](https://github.com/martinm1/PB138/blob/devel/use-case.png?raw=true)
+
+## Diagram tříd
+![alt text](https://github.com/martinm1/PB138/blob/devel/class.png?raw=true)
