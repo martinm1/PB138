@@ -20,4 +20,4 @@ Vytvořte webový portál se statistikami hráčů a zápasů, spolu s filtrová
     Marek Jančo: stahování dat
     Adam Laurenčík: práce s databází
 ## Diagram případů užití
-![alt text](https://github.com/martinm1/PB138/blob/devel/use-case.pdf?raw=true)
+![alt text](https://github.com/martinm1/PB138/blob/devel/use-case.png?raw=true)
