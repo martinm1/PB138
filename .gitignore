@@ -12,3 +12,7 @@
 hs_err_pid*
 /PB138-logic/target/
 /PB138-web/target/
+
+# idea files
+.idea
+**.iml

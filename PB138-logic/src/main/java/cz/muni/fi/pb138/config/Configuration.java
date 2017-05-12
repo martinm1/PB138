@@ -1,7 +1,7 @@
-package config;
+package cz.muni.fi.pb138.config;
 
 
-import dao.TeamDaoImpl;
+import cz.muni.fi.pb138.dao.TeamDaoImpl;
 import java.io.IOException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;

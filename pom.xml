@@ -17,18 +17,34 @@
         <module>PB138-logic</module>
         <module>PB138-web</module>
     </modules>
-    
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-    </dependencies>
-    
+
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <modules.version>1.0-SNAPSHOT</modules.version>
+
     </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>1.4.4.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>cz.muni.fi.pb138</groupId>
+                <artifactId>PB138-logic</artifactId>
+                <version>${modules.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cz.muni.fi.pb138</groupId>
+                <artifactId>PB138-web</artifactId>
+                <version>${modules.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     
     <build>
         <plugins>

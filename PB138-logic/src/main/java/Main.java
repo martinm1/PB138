@@ -1,14 +1,10 @@
 
-import config.Configuration;
-import cz.muni.fi.pb138.db.entity.Match;
-import cz.muni.fi.pb138.db.entity.Team;
-import dao.MatchDao;
-import dao.TeamDao;
-import org.springframework.beans.factory.annotation.Autowired;
+import cz.muni.fi.pb138.config.Configuration;
+import cz.muni.fi.pb138.entity.Match;
+import cz.muni.fi.pb138.dao.MatchDao;
+import cz.muni.fi.pb138.dao.TeamDao;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import java.util.List;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
