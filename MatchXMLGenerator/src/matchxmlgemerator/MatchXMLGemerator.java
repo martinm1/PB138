@@ -48,6 +48,12 @@ public class MatchXMLGemerator {
             }
         }
         
+        if(item.length() > 4){
+            if(item.substring(item.length()-4,item.length()).equals(" (A)")){
+                item = item.substring(0, item.length()-4);
+            }
+        }
+        
         return item;
     }
     
@@ -406,47 +412,107 @@ public class MatchXMLGemerator {
                 lastIndex = i+1;
             }
         }
+       
         for(int i=0; i<list.size();i++){
-            String item = list.get(i);
+            String item = "";
+            String item2 = "";
+            String scorer = "";
+            String minute = "";
+            List<String> assistList = new ArrayList<>();
+            
+            item += list.get(i);
+            item = cutEdges(item);
+            
             int j = 0;
-            while(item.charAt(j)!='.' && j< item.length()-1){
-                j++;
+            if(item.contains(".")){
+                j = item.indexOf(".");
             }
-            String minute = item.substring(0, j);
+            
+            if(item.charAt(0) == '0'
+             ||item.charAt(0) == '1'
+             ||item.charAt(0) == '2'
+             ||item.charAt(0) == '3'
+             ||item.charAt(0) == '4'
+             ||item.charAt(0) == '5'
+             ||item.charAt(0) == '6'
+             ||item.charAt(0) == '7'
+             ||item.charAt(0) == '8'
+             ||item.charAt(0) == '9'
+            )
+            {
+                minute = item.substring(0, j);
+            }
+            
             item = item.substring(j+1, item.length());
             int checkThis = -1;
             
-            for(String player : thisPlayersList){
-                checkThis = item.indexOf(player);
-                if(checkThis>-1) break;
-                if(player.length()>2){
-                    checkThis = item.indexOf(player.substring(2, player.length()));
+            if(item.contains("("))
+            {
+                item2 += item.substring(item.indexOf("("), item.length());
+                item = item.substring(0, item.indexOf("("));
+            }
+            
+            for(String player1 : thisPlayersList){
+                if(item.contains(player1)) {
+                    checkThis = 1;
+                    scorer = player1;
+                    
                 }
-                if(checkThis>-1) break;
+                if(player1.contains(" ")){
+                    if(item.contains(player1.substring(player1.indexOf(" ")+1, player1.length()))) {
+                        checkThis = 1;
+                        scorer = player1;
+                        
+                    }
+                }
+                if(item2.contains(player1)) {
+                    assistList.add(player1);
+                }
+                if(player1.contains(" ") && item2.contains(player1)) {
+                    if(item2.contains(player1.substring(player1.indexOf(" ")+1, player1.length()))){
+                        assistList.add(player1);
+                    }
+                }
             }
              
             
             int checkOther = -1;
             
-            for(String player : otherPlayersList){
-                checkOther = item.indexOf(player);
-                if(checkOther>-1) break;
-                if(player.length()>2){
-                    checkOther = item.indexOf(player.substring(2, player.length()));
+            for(String player2 : otherPlayersList){
+                if(item.contains(player2)) {
+                    checkOther = 1;
+                    scorer = player2;
+                    
                 }
-                if(checkOther>-1) break;
+                if(player2.contains(" ")){
+                    if(item.contains(player2.substring(player2.indexOf(" ")+1, player2.length()))) {
+                        checkOther = 1;
+                        scorer = player2;
+                        
+                    }
+                }
+                
             }
             
             if(checkThis> -1) {
                 result+= 
                     offset1 + "<goal>"+"\n"
                     +offset2+"<minute>"+minute+"</minute>"+"\n"
-                    +offset2+"<scorer>"+item+"</scorer>"+"\n"
-                    +offset2+"<assist>"+item+"</assist>"+"\n"
-                    +offset1 +"<goal>"+"\n";
+                    +offset2+"<scorer>"+scorer+"</scorer>"+"\n";
+                
+                for(String player : assistList){
+                    
+                    result+= offset2+"<assist>"+player+"</assist>"+"\n";
+                    
+                }
+                result+= offset1 +"<goal>"+"\n";
             }
             if(checkThis< 0 && checkOther<0){
                 throw new Exception("unidentified goal:"+item+ ", minute:"+minute);
+            }
+
+            if(checkThis> 0 && checkOther > 0){
+                throw new Exception("goal assigned to both teams:"+item+ ", minute:"+minute);
             }
         }
         return result;
@@ -506,7 +572,7 @@ public class MatchXMLGemerator {
             // TODO code application logic here
             //System.out.println("jsem program na upravu textu");
             MatchXMLGemerator match = new MatchXMLGemerator();
-            for(int i = 1; i<57; i++){
+            for(int i = 1; i<=56; i++){
                 match.generateMatch(i);
             }
         } catch (Exception ex) {
