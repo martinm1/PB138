@@ -183,6 +183,20 @@ public class MatchXMLGemerator {
         String awayTeamShots;
         String description;
         
+        //skip day and number
+        while(str.charAt(j) != ' '){
+            j++;
+        }
+        j++;
+        str = str.substring(j, str.length());
+        j=0;
+        while(str.charAt(j) != ' '){
+            j++;
+        }
+        j++;
+        str = str.substring(j, str.length());
+        j=0;
+        
         //extract date
         while(str.charAt(j) != '\n'){
             j++;
