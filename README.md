@@ -17,7 +17,7 @@ Vytvořte webový portál se statistikami hráčů a zápasů, spolu s filtrová
 ## Rozdělení práce:
     Martin Mejzlík: návrh architektury, stahování dat
     Filip Dubnička: webové rozhraní
-    Marek Jančo: dokumentace
+    Marek Jančo: xml schema
     Adam Laurenčík: práce s databází
     
 ## Diagram případů užití
