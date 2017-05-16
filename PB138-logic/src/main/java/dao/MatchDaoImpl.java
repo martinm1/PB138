@@ -89,13 +89,16 @@ public class MatchDaoImpl implements MatchDao {
 
     private Goal getGoalFromElement(Element goalElement) {
         Goal goal = new Goal();
+
         goal.setMinute(Integer.parseInt(goalElement.getElementsByTagName("minute").item(0).getTextContent()));
         goal.setScorer(goalElement.getElementsByTagName("scorer").item(0).getTextContent());
         NodeList assists = goalElement.getElementsByTagName("assist");
+
         if (assists.getLength() != 0){
             goal.setFirstAssist(assists.item(0).getTextContent());
             if(assists.getLength()> 1) goal.setSecondAssist(assists.item(1).getTextContent());
         }
+
         return goal;
     }
 
