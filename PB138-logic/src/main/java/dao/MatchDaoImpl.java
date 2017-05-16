@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+import javax.validation.constraints.Null;
 import javax.xml.xpath.*;
 
 /**
@@ -31,7 +32,7 @@ public class MatchDaoImpl implements MatchDao {
     private XPath xPath;
 
 
-    MatchDaoImpl(){
+    public MatchDaoImpl(){
         XPathFactory xPathfactory = XPathFactory.newInstance();
         xPath = xPathfactory.newXPath();
     }
@@ -86,13 +87,17 @@ public class MatchDaoImpl implements MatchDao {
         return match;
     }
 
-    private Goal getGoalFromElement(Element goalElement){
+    private Goal getGoalFromElement(Element goalElement) {
         Goal goal = new Goal();
         goal.setMinute(Integer.parseInt(goalElement.getElementsByTagName("minute").item(0).getTextContent()));
         goal.setScorer(goalElement.getElementsByTagName("scorer").item(0).getTextContent());
+        NodeList assists = goalElement.getElementsByTagName("assist");
+        if (assists.getLength() != 0){
+            goal.setFirstAssist(assists.item(0).getTextContent());
+            if(assists.getLength()> 1) goal.setSecondAssist(assists.item(1).getTextContent());
+        }
         return goal;
     }
-
 
     @Override
     public List<Match> getAllMatches() {
