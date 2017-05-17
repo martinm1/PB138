@@ -53,17 +53,17 @@
                     <goal>
                         <minute>8</minute>
                         <scorer>Vandas</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>9</minute>
                         <scorer>O. Roman</scorer>
                         <assist>Květoň</assist>
                         <assist>Kucsera</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>65</minute>
                         <scorer>Szturc</scorer>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -71,12 +71,12 @@
                         <scorer>Netík</scorer>
                         <assist>Pech</assist>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>45</minute>
                         <scorer>Netík</scorer>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>33</homeTeamShots>
@@ -138,14 +138,14 @@
                         <scorer>Nahodil</scorer>
                         <assist>Rolinek</assist>
                         <assist>Hodgman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>45</minute>
                         <scorer>Ovčačík</scorer>
                         <assist>Schaus</assist>
                         <assist>T. Kaut</assist>
                         <assist>T. Kaut</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -153,19 +153,19 @@
                         <scorer>Forman</scorer>
                         <assist>Uher</assist>
                         <assist>Netík</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>18</minute>
                         <scorer>Cingel</scorer>
                         <assist>Mikuš</assist>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>41</minute>
                         <scorer>P. Vrána</scorer>
                         <assist>Čajkovský</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>18</homeTeamShots>
@@ -227,13 +227,13 @@
                         <scorer>Bulíř</scorer>
                         <assist>Svačina</assist>
                         <assist>Radivojevič</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>48</minute>
                         <scorer>Jánošík</scorer>
                         <assist>Bulíř</assist>
                         <assist>Radivojevič</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -241,18 +241,18 @@
                         <scorer>Čajkovský</scorer>
                         <assist>Ružička</assist>
                         <assist>Cingel</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>22</minute>
                         <scorer>Kumstát</scorer>
                         <assist>Pech</assist>
                         <assist>Netík</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>39</minute>
                         <scorer>Klimek</scorer>
                         <assist>Vrána</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>33</homeTeamShots>
@@ -314,18 +314,18 @@
                         <assist>P. Vrána</assist>
                         <assist>P. Vrána</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>36</minute>
                         <scorer>P. Vrána</scorer>
                         <assist>Ihnačák</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>39</minute>
                         <scorer>Forman</scorer>
                         <assist>Klimek</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -333,22 +333,22 @@
                         <scorer>Petružálek</scorer>
                         <assist>Linhart</assist>
                         <assist>Kane</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>23</minute>
                         <scorer>Rákos</scorer>
                         <assist>Kreps</assist>
                         <assist>Dravecký</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>25</minute>
                         <scorer>Roth</scorer>
                         <assist>Hrňa</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute></minute>
                         <scorer>Petružálek</scorer>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>28</homeTeamShots>
@@ -408,29 +408,29 @@
                     <goal>
                         <minute>9</minute>
                         <scorer>Strapáč</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>37</minute>
                         <scorer>Ostřížek</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>47</minute>
                         <scorer>J. Knotek</scorer>
                         <assist>Vyrůbalík</assist>
                         <assist>Holec</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>16</minute>
                         <scorer>Kudrna</scorer>
                         <assist>Černoch</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>56</minute>
                         <scorer>P. Vrána</scorer>
                         <assist>Švrček</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>0</homeTeamShots>
@@ -491,26 +491,26 @@
                         <minute>4</minute>
                         <scorer>Valach</scorer>
                         <assist>Skokan</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>8</minute>
                         <scorer>Poletín</scorer>
                         <assist>Huml</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>13</minute>
                         <scorer>Poletín</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>63</minute>
                         <scorer>Tomica</scorer>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>1</minute>
                         <scorer>Piskáček</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>11</minute>
                         <scorer>P. Vrána</scorer>
@@ -518,7 +518,7 @@
                         <assist>Ihnačák</assist>
                         <assist>Pech</assist>
                         <assist>Kudrna</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>33</homeTeamShots>
@@ -580,31 +580,31 @@
                         <minute>48</minute>
                         <scorer>Dietz</scorer>
                         <assist>Potulny</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>58</minute>
                         <scorer>Červený</scorer>
                         <assist>Dietz</assist>
                         <assist>Džerinš</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>20</minute>
                         <scorer>Ihnačák</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>27</minute>
                         <scorer>Ihnačák</scorer>
                         <assist>Pech</assist>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>28</minute>
                         <scorer>Černoch</scorer>
                         <assist>Forman</assist>
                         <assist>Ružička</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>16</homeTeamShots>
@@ -661,30 +661,30 @@
                     <goal>
                         <minute>8</minute>
                         <scorer>Mikuš</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>25</minute>
                         <scorer>Ružička</scorer>
                         <assist>Nedomlel</assist>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>31</minute>
                         <scorer>Kumstát</scorer>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>39</minute>
                         <scorer>Forman</scorer>
                         <assist>Ružička</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>45</minute>
                         <scorer>Forman</scorer>
                         <assist>Ihnačák</assist>
                         <assist>Cingel</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -692,7 +692,7 @@
                         <scorer>J. Ondráček</scorer>
                         <assist>O. Veselý</assist>
                         <assist>O. Veselý</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>40</homeTeamShots>
@@ -758,36 +758,36 @@
                         <assist>O. Němec</assist>
                         <assist>M. Kvapil</assist>
                         <assist>M. Kvapil</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>20</minute>
                         <scorer>V. Němec</scorer>
                         <assist>Štencel</assist>
                         <assist>M. Kvapil</assist>
                         <assist>M. Kvapil</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>21</minute>
                         <scorer>Nečas</scorer>
                         <assist>M. Erat</assist>
                         <assist>M. Erat</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>37</minute>
                         <scorer>V. Němec</scorer>
                         <assist>M. Kvapil</assist>
                         <assist>M. Kvapil</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>41</minute>
                         <scorer>M. Erat</scorer>
                         <assist>O. Němec</assist>
                         <assist>O. Němec</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>55</minute>
                         <scorer>M. Kvapil</scorer>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -795,13 +795,13 @@
                         <scorer>Pech</scorer>
                         <assist>Eminger</assist>
                         <assist>Safin</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>34</minute>
                         <scorer>Černoch</scorer>
                         <assist>Ihnačák</assist>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>28</homeTeamShots>
@@ -864,44 +864,44 @@
                         <scorer>Pech</scorer>
                         <assist>Kalina</assist>
                         <assist>Ružička</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>28</minute>
                         <scorer>Vrána</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>29</minute>
                         <scorer>Gernát</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>29</minute>
                         <scorer>Kudrna</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>33</minute>
                         <scorer>Ihnačák</scorer>
                         <assist>Ružička</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>48</minute>
                         <scorer>Vrána</scorer>
                         <assist>Ružička</assist>
                         <assist>Ihnačák</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>58</minute>
                         <scorer>Uher</scorer>
                         <assist>Cingel</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>59</minute>
                         <scorer>Černoch</scorer>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>60</minute>
                         <scorer>Cingel</scorer>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                 </awayTeamGoals>
@@ -964,17 +964,17 @@
                         <minute>3</minute>
                         <scorer>Stříbrný</scorer>
                         <assist>Lukeš</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>17</minute>
                         <scorer>Stříbrný</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>19</minute>
                         <scorer>V. Hübl</scorer>
                         <assist>Kubát</assist>
                         <assist>Lukeš</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>19</minute>
                         <scorer>R. Hanzl</scorer>
@@ -982,14 +982,14 @@
                         <assist>R. Hanzl</assist>
                         <assist>J. Černý</assist>
                         <assist>J. Černý</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>31</minute>
                         <scorer>Lukeš</scorer>
                         <assist>Kubát</assist>
                         <assist>V. Hübl</assist>
                         <assist>V. Hübl</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -997,7 +997,7 @@
                         <scorer>Kumstát</scorer>
                         <assist>Gernát</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>28</homeTeamShots>
@@ -1061,27 +1061,27 @@
                         <assist>Pech</assist>
                         <assist>M. Procházka</assist>
                         <assist>M. Procházka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>13</minute>
                         <scorer>Uher</scorer>
                         <assist>Cingel</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>13</minute>
                         <scorer>Ihnačák</scorer>
                         <assist>Ružička</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>21</minute>
                         <scorer>Čajkovský</scorer>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>34</minute>
                         <scorer>P. Vrána</scorer>
                         <assist>Ružička</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>13</homeTeamShots>
@@ -1141,17 +1141,17 @@
                         <minute>15</minute>
                         <scorer>Kumstát</scorer>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>32</minute>
                         <scorer>Pech</scorer>
                         <assist>Barinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>46</minute>
                         <scorer>Uher</scorer>
                         <assist>Kudrna</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -1159,7 +1159,7 @@
                         <scorer>Mullane</scorer>
                         <assist>T. Rachůnek</assist>
                         <assist>T. Rachůnek</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>36</homeTeamShots>
@@ -1221,24 +1221,24 @@
                         <scorer>Klok</scorer>
                         <assist>Olesz</assist>
                         <assist>Szturc</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>22</minute>
                         <scorer>Kolouch</scorer>
                         <assist>Vandas</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>60</minute>
                         <scorer>Urbanec</scorer>
                         <assist>Stastny</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>19</minute>
                         <scorer>Ružička</scorer>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>37</homeTeamShots>
@@ -1299,22 +1299,22 @@
                         <minute>6</minute>
                         <scorer>Čajkovský</scorer>
                         <assist>Ihnačák</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>35</minute>
                         <scorer>Kalina</scorer>
                         <assist>Gernát</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>36</minute>
                         <scorer>Kumstát</scorer>
                         <assist>Čajkovský</assist>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>57</minute>
                         <scorer>Pech</scorer>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -1322,7 +1322,7 @@
                         <scorer>Tomášek</scorer>
                         <assist>Redenbach</assist>
                         <assist>Rolinek</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>34</homeTeamShots>
@@ -1383,32 +1383,32 @@
                         <minute>56</minute>
                         <scorer>Vrána</scorer>
                         <assist>Mikuš</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>8</minute>
                         <scorer>Šimek</scorer>
                         <assist>Radivojevič</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>23</minute>
                         <scorer>Stránský</scorer>
                         <assist>Vantuch</assist>
                         <assist>J. Vlach</assist>
                         <assist>J. Vlach</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>37</minute>
                         <scorer>Bartovič</scorer>
                         <assist>Ordoš</assist>
                         <assist>Svačina</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>57</minute>
                         <scorer>Jelínek</scorer>
                         <assist>Lakatoš</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>26</homeTeamShots>
@@ -1470,17 +1470,17 @@
                         <scorer>Marosz</scorer>
                         <assist>Hrabal</assist>
                         <assist>Špirko</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>26</minute>
                         <scorer>Polanský</scorer>
                         <assist>Adamský</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>39</minute>
                         <scorer>Petružálek</scorer>
                         <assist>Marosz</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -1488,13 +1488,13 @@
                         <scorer>Čajkovský</scorer>
                         <assist>Vrána</assist>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>49</minute>
                         <scorer>Pech</scorer>
                         <assist>Kumstát</assist>
                         <assist>Kudrna</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>22</homeTeamShots>
@@ -1557,34 +1557,34 @@
                         <scorer>Kämpf</scorer>
                         <assist>Flemming</assist>
                         <assist>Koblasa</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>15</minute>
                         <scorer>Flemming</scorer>
                         <assist>V. Růžička</assist>
                         <assist>V. Růžička</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>16</minute>
                         <scorer>V. Růžička</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>18</minute>
                         <scorer>Huml</scorer>
                         <assist>Hřebejk</assist>
                         <assist>Vondrka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>48</minute>
                         <scorer>Skokan</scorer>
                         <assist>Kämpf</assist>
                         <assist>Sklenář</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>63</minute>
                         <scorer>Kämpf</scorer>
                         <assist>Valach</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -1592,29 +1592,29 @@
                         <scorer>Čajkovský</scorer>
                         <assist>Vrána</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>7</minute>
                         <scorer>Vrána</scorer>
                         <assist>Kalina</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>15</minute>
                         <scorer>Kudrna</scorer>
                         <assist>Mikuš</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>21</minute>
                         <scorer>Vrána</scorer>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>58</minute>
                         <scorer>Pech</scorer>
                         <assist>Vrána</assist>
                         <assist>Ihnačák</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>23</homeTeamShots>
@@ -1677,12 +1677,12 @@
                         <scorer>Kumstát</scorer>
                         <assist>Mikuš</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>24</minute>
                         <scorer>Martin Procházka</scorer>
                         <assist>Nedomlel</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -1690,17 +1690,17 @@
                         <scorer>Vydarený</scorer>
                         <assist>Šimánek</assist>
                         <assist>Jarůšek</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>9</minute>
                         <scorer>T. Knotek</scorer>
                         <assist>Červený</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>19</minute>
                         <scorer>Newton</scorer>
                         <assist>Červený</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>31</homeTeamShots>
@@ -1763,22 +1763,22 @@
                         <scorer>Cingel</scorer>
                         <assist>Mikuš</assist>
                         <assist>Uher</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>19</minute>
                         <scorer>Kudrna</scorer>
                         <assist>Švrček</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>31</minute>
                         <scorer>Pech</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>58</minute>
                         <scorer>J. Hlinka</scorer>
                         <assist>Kumstát</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>18</homeTeamShots>
@@ -1837,19 +1837,19 @@
                         <minute>49</minute>
                         <scorer>Stříteský</scorer>
                         <assist>Pabiška</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>58</minute>
                         <scorer>Lenc</scorer>
                         <assist>Hyka</assist>
                         <assist>Vampola</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>60</minute>
                         <scorer>Orsava</scorer>
                         <assist>Žejdl</assist>
                         <assist>Lenc</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -1857,24 +1857,24 @@
                         <scorer>Safin</scorer>
                         <assist>M. Procházka</assist>
                         <assist>M. Procházka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>26</minute>
                         <scorer>Pech</scorer>
                         <assist>Vrána</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>28</minute>
                         <scorer>Hlinka</scorer>
                         <assist>Čajkovský</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>32</minute>
                         <scorer>Vrána</scorer>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>43</homeTeamShots>
@@ -1933,18 +1933,18 @@
                     <goal>
                         <minute>40</minute>
                         <scorer>Hlinka</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>51</minute>
                         <scorer>Kumstát</scorer>
                         <assist>Uher</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>52</minute>
                         <scorer>Čajkovský</scorer>
                         <assist>Nedomlel</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                 </awayTeamGoals>
@@ -2009,20 +2009,20 @@
                         <scorer>Gorčík</scorer>
                         <assist>Dujsík</assist>
                         <assist>Skuhravý</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>50</minute>
                         <scorer>Tuominen</scorer>
                         <assist>T. Rachůnek</assist>
                         <assist>T. Rachůnek</assist>
                         <assist>Mikulík</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>54</minute>
                         <scorer>Mikulík</scorer>
                         <assist>Dujsík</assist>
                         <assist>Flek</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -2030,19 +2030,19 @@
                         <scorer>Černoch</scorer>
                         <assist>O. Procházka</assist>
                         <assist>O. Procházka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>19</minute>
                         <scorer>Pech</scorer>
                         <assist>Piskáček</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>54</minute>
                         <scorer>Kumstát</scorer>
                         <assist>Pech</assist>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>34</homeTeamShots>
@@ -2103,29 +2103,29 @@
                         <minute>9</minute>
                         <scorer>Kudrna</scorer>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>15</minute>
                         <scorer>Mikuš</scorer>
                         <assist>Vrána</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>55</minute>
                         <scorer>Uher</scorer>
                         <assist>Kudrna</assist>
                         <assist>Cingel</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>27</minute>
                         <scorer>Kováčik</scorer>
                         <assist>Štencel</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>32</minute>
                         <scorer>Němec</scorer>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>31</homeTeamShots>
@@ -2187,13 +2187,13 @@
                         <scorer>Klimek</scorer>
                         <assist>Mikuš</assist>
                         <assist>Vrána</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>25</minute>
                         <scorer>Vrána</scorer>
                         <assist>Barinka</assist>
                         <assist>Klimek</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -2201,7 +2201,7 @@
                         <scorer>Svoboda</scorer>
                         <assist>Kracík</assist>
                         <assist>Kratěna</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>28</homeTeamShots>
@@ -2261,19 +2261,19 @@
                         <minute>4</minute>
                         <scorer>Hlinka</scorer>
                         <assist>Vrána</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>26</minute>
                         <scorer>Kudrna</scorer>
                         <assist>Cingel</assist>
                         <assist>Uher</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>58</minute>
                         <scorer>Vrána</scorer>
                         <assist>Mikuš</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -2281,23 +2281,23 @@
                         <scorer>Klok</scorer>
                         <assist>Kucsera</assist>
                         <assist>Roman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>32</minute>
                         <scorer>Kolouch</scorer>
                         <assist>Květoň</assist>
                         <assist>Vandas</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>38</minute>
                         <scorer>Olesz</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>61</minute>
                         <scorer>Roman</scorer>
                         <assist>Klok</assist>
                         <assist>Tybor</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>38</homeTeamShots>
@@ -2358,7 +2358,7 @@
                         <minute>41</minute>
                         <scorer>Rolinek</scorer>
                         <assist>Redenbach</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -2366,30 +2366,30 @@
                         <scorer>Klimek</scorer>
                         <assist>Vrána</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>14</minute>
                         <scorer>Vrána</scorer>
                         <assist>Mikuš</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>33</minute>
                         <scorer>Uher</scorer>
                         <assist>Gernát</assist>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>48</minute>
                         <scorer>Kern</scorer>
                         <assist>Mikuš</assist>
                         <assist>Cingel</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>54</minute>
                         <scorer>Forman</scorer>
                         <assist>Kalina</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>22</homeTeamShots>
@@ -2450,26 +2450,26 @@
                         <minute>9</minute>
                         <scorer>Vantuch</scorer>
                         <assist>Vlach</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>19</minute>
                         <scorer>Hlinka</scorer>
                         <assist>Vrána</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>36</minute>
                         <scorer>Cingel</scorer>
                         <assist>Gernát</assist>
                         <assist>Uher</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>55</minute>
                         <scorer>Černoch</scorer>
                         <assist>Švrček</assist>
                         <assist>Uher</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>15</homeTeamShots>
@@ -2533,13 +2533,13 @@
                         <scorer>Marosz</scorer>
                         <assist>Hrabal</assist>
                         <assist>Hrňa</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>49</minute>
                         <scorer>Špirko</scorer>
                         <assist>Marosz</assist>
                         <assist>Irgl</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -2547,7 +2547,7 @@
                         <scorer>Pech</scorer>
                         <assist>Kumstát</assist>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>24</homeTeamShots>
@@ -2609,36 +2609,36 @@
                         <minute>49</minute>
                         <scorer>Laš</scorer>
                         <assist>Vyrůbalík</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>13</minute>
                         <scorer>Forman</scorer>
                         <assist>Netík</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>23</minute>
                         <scorer>Klimek</scorer>
                         <assist>Švrček</assist>
                         <assist>Vrána</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>24</minute>
                         <scorer>Hlinka</scorer>
                         <assist>Mikuš</assist>
                         <assist>Vrána</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>31</minute>
                         <scorer>Mikuš</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>34</minute>
                         <scorer>Kudrna</scorer>
                         <assist>Piskáček</assist>
                         <assist>Uher</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>31</homeTeamShots>
@@ -2699,13 +2699,13 @@
                         <minute>3</minute>
                         <scorer>Ihnačák</scorer>
                         <assist>Netík</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>18</minute>
                         <scorer>Vrána</scorer>
                         <assist>Hlinka</assist>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -2713,18 +2713,18 @@
                         <scorer>Huml</scorer>
                         <assist>Dlapa</assist>
                         <assist>Tomica</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>28</minute>
                         <scorer>Vondrka</scorer>
                         <assist>Tomica</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>34</minute>
                         <scorer>Skinner</scorer>
                         <assist>Rutta</assist>
                         <assist>Huml</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>26</homeTeamShots>
@@ -2787,19 +2787,19 @@
                         <minute>2</minute>
                         <scorer>Vlach</scorer>
                         <assist>Blaťák</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>18</minute>
                         <scorer>Kubiš</scorer>
                         <assist>Popelka</assist>
                         <assist>Okál</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>58</minute>
                         <scorer>Kubiš</scorer>
                         <assist>Řezníček</assist>
                         <assist>Veselý</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>36</homeTeamShots>
@@ -2859,11 +2859,11 @@
                     <goal>
                         <minute>15</minute>
                         <scorer>Zohorna</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>47</minute>
                         <scorer>V. Němec</scorer>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -2871,27 +2871,27 @@
                         <scorer>Řepík</scorer>
                         <assist>Eminger</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>5</minute>
                         <scorer>Ihnačák</scorer>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>28</minute>
                         <scorer>Netík</scorer>
                         <assist>Forman</assist>
                         <assist>Řepík</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>33</minute>
                         <scorer>Cingel</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>55</minute>
                         <scorer>Uher</scorer>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>22</homeTeamShots>
@@ -2953,24 +2953,24 @@
                         <scorer>Kudrna</scorer>
                         <assist>Cingel</assist>
                         <assist>Uher</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>27</minute>
                         <scorer>Vrána</scorer>
                         <assist>Hlinka</assist>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>37</minute>
                         <scorer>Ihnačák</scorer>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>54</minute>
                         <scorer>Piskáček</scorer>
                         <assist>Cingel</assist>
                         <assist>Uher</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                 </awayTeamGoals>
@@ -3032,17 +3032,17 @@
                         <scorer>Gerhát</scorer>
                         <assist>Pavlík</assist>
                         <assist>Lukeš</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>23</minute>
                         <scorer>Havlíček</scorer>
                         <assist>Pavlík</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>49</minute>
                         <scorer>M. Hanzl</scorer>
                         <assist>Pavlík</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -3050,13 +3050,13 @@
                         <scorer>Kumstát</scorer>
                         <assist>Mikuš</assist>
                         <assist>Vrána</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>59</minute>
                         <scorer>Pech</scorer>
                         <assist>Mikuš</assist>
                         <assist>Řepík</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>24</homeTeamShots>
@@ -3117,19 +3117,19 @@
                         <scorer>Kumstát</scorer>
                         <assist>Řepík</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>64</minute>
                         <scorer>Pech</scorer>
                         <assist>Mikuš</assist>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>42</minute>
                         <scorer>M. Rohan</scorer>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>41</homeTeamShots>
@@ -3189,31 +3189,31 @@
                         <minute>40</minute>
                         <scorer>Vondráček</scorer>
                         <assist>Koreis</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>58</minute>
                         <scorer>Kubalík</scorer>
                         <assist>Kadlec</assist>
                         <assist>Svoboda</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>33</minute>
                         <scorer>Vrána</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>38</minute>
                         <scorer>Pech</scorer>
                         <assist>Hlinka</assist>
                         <assist>Vrána</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>65</minute>
                         <scorer>Hlinka</scorer>
                         <assist>Gernát</assist>
                         <assist>Vrána</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>29</homeTeamShots>
@@ -3275,19 +3275,19 @@
                         <scorer>Hlinka</scorer>
                         <assist>Vrána</assist>
                         <assist>Klimek</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>15</minute>
                         <scorer>Cingel</scorer>
                         <assist>Uher</assist>
                         <assist>Kudrna</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>26</minute>
                         <scorer>Cingel</scorer>
                         <assist>Mikuš</assist>
                         <assist>Kudrna</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -3295,12 +3295,12 @@
                         <scorer>Rolinek</scorer>
                         <assist>Schaus</assist>
                         <assist>Redenbach</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>42</minute>
                         <scorer>Hubáček</scorer>
                         <assist>Nedbal</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>23</homeTeamShots>
@@ -3364,13 +3364,13 @@
                         <scorer>Tybor</scorer>
                         <assist>Hrbas</assist>
                         <assist>Roman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>57</minute>
                         <scorer>Roman</scorer>
                         <assist>Sloboda</assist>
                         <assist>Baranka</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>44</homeTeamShots>
@@ -3431,20 +3431,20 @@
                         <scorer>Řepík</scorer>
                         <assist>Eminger</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>25</minute>
                         <scorer>Deveaux</scorer>
                         <assist>Vrána</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>58</minute>
                         <scorer>Kumstát</scorer>
                         <assist>Mikuš</assist>
                         <assist>Vrána</assist>
                         <assist>Uher</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -3452,18 +3452,18 @@
                         <scorer>Svačina</scorer>
                         <assist>Ordoš</assist>
                         <assist>Bližňák</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>40</minute>
                         <scorer>Vlach</scorer>
                         <assist>Bližňák</assist>
                         <assist>Lakatoš</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>50</minute>
                         <scorer>Jelínek</scorer>
                         <assist>Stránský</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>31</homeTeamShots>
@@ -3524,83 +3524,83 @@
                         <scorer>Kumstát</scorer>
                         <assist>Ihnačák</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>14</minute>
                         <scorer>Pech</scorer>
                         <assist>Ihnačák</assist>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>14</minute>
                         <scorer>Kudrna</scorer>
                         <assist>Cingel</assist>
                         <assist>Uher</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>15</minute>
                         <scorer>J. Hlinka</scorer>
                         <assist>Řepík</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>28</minute>
                         <scorer>Cingel</scorer>
                         <assist>Kudrna</assist>
                         <assist>Uher</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>36</minute>
                         <scorer>J. Hlinka</scorer>
                         <assist>Řepík</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>40</minute>
                         <scorer>Ihnačák</scorer>
                         <assist>Forman</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>40</minute>
                         <scorer>Řepík</scorer>
                         <assist>Mikuš</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>47</minute>
                         <scorer>Klimek</scorer>
                         <assist>Deveaux</assist>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>53</minute>
                         <scorer>J. Hlinka</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>53</minute>
                         <scorer>Klimek</scorer>
                         <assist>Mikuš</assist>
                         <assist>Ihnačák</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>57</minute>
                         <scorer>Kudrna</scorer>
                         <assist>Gernát</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>1</minute>
                         <scorer>Hrabal</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>24</minute>
                         <scorer>Petružálek</scorer>
                         <assist>Roth</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>32</minute>
                         <scorer>Kane</scorer>
                         <assist>Adamský</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>41</homeTeamShots>
@@ -3660,7 +3660,7 @@
                         <minute>6</minute>
                         <scorer>Červený</scorer>
                         <assist>Šimánek</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -3668,13 +3668,13 @@
                         <scorer>Gernát</scorer>
                         <assist>Pech</assist>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>42</minute>
                         <scorer>Ihnačák</scorer>
                         <assist>Nedomlel</assist>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>34</homeTeamShots>
@@ -3735,13 +3735,13 @@
                         <scorer>Řepík</scorer>
                         <assist>Hlinka</assist>
                         <assist>Vrána</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>49</minute>
                         <scorer>Vrána</scorer>
                         <assist>Hlinka</assist>
                         <assist>Řepík</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -3749,23 +3749,23 @@
                         <scorer>Knotek</scorer>
                         <assist>Laš</assist>
                         <assist>Vlach</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>32</minute>
                         <scorer>Eberle</scorer>
                         <assist>Vyrůbalík</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>47</minute>
                         <scorer>Laš</scorer>
                         <assist>Škůrek</assist>
                         <assist>Vlach</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>50</minute>
                         <scorer>Laš</scorer>
                         <assist>Škůrek</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>33</homeTeamShots>
@@ -3825,29 +3825,29 @@
                         <minute>15</minute>
                         <scorer>Vrána</scorer>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>36</minute>
                         <scorer>Ihnačák</scorer>
                         <assist>Mikuš</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>65</minute>
                         <scorer>Pech</scorer>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>46</minute>
                         <scorer>Sklenář</scorer>
                         <assist>Kaše</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>49</minute>
                         <scorer>Vondrka</scorer>
                         <assist>Huml</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>29</homeTeamShots>
@@ -3909,13 +3909,13 @@
                         <scorer>Vrána</scorer>
                         <assist>Hlinka</assist>
                         <assist>Řepík</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>13</minute>
                         <scorer>Klimek</scorer>
                         <assist>Kalina</assist>
                         <assist>Buchtele</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -3923,26 +3923,26 @@
                         <scorer>Nedvídek</scorer>
                         <assist>Gregorc</assist>
                         <assist>Pavlík</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>40</minute>
                         <scorer>Knotek</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>43</minute>
                         <scorer>Köhler</scorer>
                         <assist>Pláněk</assist>
                         <assist>Nedvídek</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>46</minute>
                         <scorer>Knotek</scorer>
                         <assist>Gregorc</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>58</minute>
                         <scorer>Jarůšek</scorer>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>27</homeTeamShots>
@@ -4005,30 +4005,30 @@
                         <scorer>Řepík</scorer>
                         <assist>Vrána</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>40</minute>
                         <scorer>Buchtele</scorer>
                         <assist>Smejkal</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>44</minute>
                         <scorer>Uher</scorer>
                         <assist>Švrček</assist>
                         <assist>Cingel</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>50</minute>
                         <scorer>Kumstát</scorer>
                         <assist>Kalina</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>52</minute>
                         <scorer>Forman</scorer>
                         <assist>Pech</assist>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>31</homeTeamShots>
@@ -4090,25 +4090,25 @@
                         <scorer>Pech</scorer>
                         <assist>Mikuš</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>13</minute>
                         <scorer>Pech</scorer>
                         <assist>Forman</assist>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>46</minute>
                         <scorer>Forman</scorer>
                         <assist>Kalina</assist>
                         <assist>Piskáček</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>51</minute>
                         <scorer>Klimek</scorer>
                         <assist>Řepík</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                 </awayTeamGoals>
@@ -4170,18 +4170,18 @@
                         <minute>10</minute>
                         <scorer>Kumstát</scorer>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>31</minute>
                         <scorer>Kudrna</scorer>
                         <assist>Cingel</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>37</minute>
                         <scorer>Švrček</scorer>
                         <assist>Uher</assist>
                         <assist>Kudrna</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -4190,7 +4190,7 @@
                         <assist>J. Galvas</assist>
                         <assist>J. Galvas</assist>
                         <assist>Rašner</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>36</homeTeamShots>
@@ -4251,35 +4251,35 @@
                         <scorer>Orsava</scorer>
                         <assist>Žejdl</assist>
                         <assist>Klepiš</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>53</minute>
                         <scorer>Vampola</scorer>
                         <assist>Pospíšil</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>22</minute>
                         <scorer>Řepík</scorer>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>24</minute>
                         <scorer>Buchtele</scorer>
                         <assist>Gernát</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>47</minute>
                         <scorer>Buchtele</scorer>
                         <assist>Kalina</assist>
                         <assist>Smejkal</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>59</minute>
                         <scorer>Řepík</scorer>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>31</homeTeamShots>
@@ -4341,19 +4341,19 @@
                         <scorer>Gernát</scorer>
                         <assist>Řepík</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>17</minute>
                         <scorer>Kumstát</scorer>
                         <assist>Barinka</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>28</minute>
                         <scorer>Buchtele</scorer>
                         <assist>Forman</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -4361,7 +4361,7 @@
                         <scorer>Hořava</scorer>
                         <assist>Sklenička</assist>
                         <assist>Pilař</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>35</homeTeamShots>
@@ -4422,24 +4422,24 @@
                         <scorer>Beránek</scorer>
                         <assist>Kindl</assist>
                         <assist>Flek</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>31</minute>
                         <scorer>V. Tomeček</scorer>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>57</minute>
                         <scorer>Benák</scorer>
                         <assist>Gríger</assist>
                         <assist>Kindl</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>48</minute>
                         <scorer>Pech</scorer>
                         <assist>Gernát</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>22</homeTeamShots>
@@ -4501,13 +4501,13 @@
                         <scorer>Kudrna</scorer>
                         <assist>Piskáček</assist>
                         <assist>Uher</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>29</minute>
                         <scorer>Buchtele</scorer>
                         <assist>Gernát</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -4515,17 +4515,17 @@
                         <scorer>Procházka</scorer>
                         <assist>Kvasnička</assist>
                         <assist>Kratěna</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>48</minute>
                         <scorer>Indrák</scorer>
                         <assist>Kubalík</assist>
                         <assist>Stach</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute></minute>
                         <scorer>Indrák</scorer>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>35</homeTeamShots>
@@ -4588,13 +4588,13 @@
                         <scorer>Hlinka</scorer>
                         <assist>Vrána</assist>
                         <assist>Kumstát</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>5</minute>
                         <scorer>Vrána</scorer>
                         <assist>Řepík</assist>
                         <assist>Hlinka</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -4602,19 +4602,19 @@
                         <scorer>V. Němec</scorer>
                         <assist>Krejčík</assist>
                         <assist>Vincour</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>56</minute>
                         <scorer>Nečas</scorer>
                         <assist>Krejčík</assist>
                         <assist>Erat</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>57</minute>
                         <scorer>Mallet</scorer>
                         <assist>Zohorna</assist>
                         <assist>Haščák</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>32</homeTeamShots>
@@ -4676,32 +4676,32 @@
                         <minute>7</minute>
                         <scorer>Řepík</scorer>
                         <assist>Cingel</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>17</minute>
                         <scorer>Kumstát</scorer>
                         <assist>Pech</assist>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>15</minute>
                         <scorer>Nečas</scorer>
                         <assist>Zohorna</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>45</minute>
                         <scorer>Mallet</scorer>
                         <assist>Hruška</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>64</minute>
                         <scorer>Kováčik</scorer>
                         <assist>Zaťovič</assist>
                         <assist>V. Němec</assist>
                         <assist>V. Němec</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>32</homeTeamShots>
@@ -4763,44 +4763,44 @@
                         <assist>V. Němec</assist>
                         <assist>V. Němec</assist>
                         <assist>Vincour</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>24</minute>
                         <scorer>Krejčík</scorer>
                         <assist>Zohorna</assist>
                         <assist>Haščák</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>35</minute>
                         <scorer>Hruška</scorer>
                         <assist>Kvapil</assist>
                         <assist>Vincour</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>61</minute>
                         <scorer>Haščák</scorer>
                         <assist>V. Němec</assist>
                         <assist>V. Němec</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
                         <minute>2</minute>
                         <scorer>Uher</scorer>
                         <assist>Mikuš</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>3</minute>
                         <scorer>Gernát</scorer>
                         <assist>Vrána</assist>
                         <assist>Forman</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>11</minute>
                         <scorer>Vrána</scorer>
                         <assist>Hlinka</assist>
                         <assist>Pech</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>21</homeTeamShots>
@@ -4861,23 +4861,23 @@
                         <scorer>Haščák</scorer>
                         <assist>Kováčik</assist>
                         <assist>Kvapil</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>17</minute>
                         <scorer>V. Němec</scorer>
                         <assist>Gulaši</assist>
                         <assist>Kvapil</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>19</minute>
                         <scorer>V. Němec</scorer>
                         <assist>Haščák</assist>
-                    <goal>
+                    </goal>
                     <goal>
                         <minute>27</minute>
                         <scorer>V. Němec</scorer>
                         <assist>Kvapil</assist>
-                    <goal>
+                    </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
                     <goal>
@@ -4885,7 +4885,7 @@
                         <scorer>Pech</scorer>
                         <assist>Gernát</assist>
                         <assist>Deveaux</assist>
-                    <goal>
+                    </goal>
                 </awayTeamGoals>
             </goals>
             <homeTeamShots>23</homeTeamShots>

@@ -519,7 +519,7 @@ public class MatchXMLGemerator {
                     result+= offset2+"<assist>"+player+"</assist>"+"\n";
                     
                 }
-                result+= offset1 +"<goal>"+"\n";
+                result+= offset1 +"</goal>"+"\n";
             }
             if(checkThis< 0 && checkOther<0){
                 throw new Exception("unidentified goal:"+item+ ", minute:"+minute);
