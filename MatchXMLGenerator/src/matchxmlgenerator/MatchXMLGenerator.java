@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package matchxmlgemerator;
+package matchxmlgenerator;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -19,7 +19,7 @@ import java.util.logging.Logger;
  *
  * @author martin
  */
-public class MatchXMLGemerator {
+public class MatchXMLGenerator {
     private static final String FILENAME = "output.txt";
     
     
@@ -527,6 +527,9 @@ public class MatchXMLGemerator {
                 if(!minute.equals("")){
                     result+= offset2+"<minute>"+minute+"</minute>"+"\n";
                 }
+                else{
+                    result+= offset2+"<minute>65</minute>"+"\n";
+                }
                 result+= offset2+"<scorer>"+scorer+"</scorer>"+"\n";
                 
                 for(String player : assistList){
@@ -601,7 +604,7 @@ public class MatchXMLGemerator {
         try {
             // TODO code application logic here
             //System.out.println("jsem program na upravu textu");
-            MatchXMLGemerator match = new MatchXMLGemerator();
+            MatchXMLGenerator match = new MatchXMLGenerator();
             for(; i<=56; i++){
                 match.generateMatch(i);
             }

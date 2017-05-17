@@ -407,6 +407,7 @@
                         <assist>Hrňa</assist>
                     </goal>
                     <goal>
+                        <minute>65</minute>
                         <scorer>Petružálek</scorer>
                     </goal>
                 </awayTeamGoals>
@@ -4569,6 +4570,7 @@
                         <assist>Stach</assist>
                     </goal>
                     <goal>
+                        <minute>65</minute>
                         <scorer>Indrák</scorer>
                     </goal>
                 </awayTeamGoals>
