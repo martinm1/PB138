@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Task 2: complete this schema according to requirements given in company.xml
+    so that the company.xml is valid. You can run this project to see its usage.-->
+   
+    <xs:simpleType name="nonempty_string"> 
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="custom_date_type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([1-9]|[12][0-9]|3[01]). ([1-9]|1[012]). (19|20)\d\d"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="minute_type">
+      <xs:restriction base="xs:integer">
+         <xs:minInclusive value="0"/>
+         <xs:maxInclusive value="75"/>
+      </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="database">    
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="teams" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="team" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="nonempty_string"/>
+                                        <xs:element name="logo"/> <!--type="nonempty_string"/>-->
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="matches" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="match" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="date" type="custom_date_type"/>
+                                        <xs:element name="homeTeam"/>
+                                        <xs:element name="awayTeam"/>
+                                        <xs:element name="homePlayers" maxOccurs="1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="player" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="awayPlayers" maxOccurs="1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="player" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="goals" maxOccurs="1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="homeTeamGoals" maxOccurs="1">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="goal" minOccurs="0" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="minute" type="minute_type" maxOccurs="1"/>
+                                                                            <xs:element name="scorer" type="nonempty_string" maxOccurs="1"/>
+                                                                            <xs:element name="assist" type="xs:string"  minOccurs="0" maxOccurs="3"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="awayTeamGoals" maxOccurs="1">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="goal" minOccurs="0" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="minute" type="minute_type" maxOccurs="1"/>
+                                                                            <xs:element name="scorer" type="nonempty_string" maxOccurs="1"/>
+                                                                            <xs:element name="assist" type="xs:string" minOccurs="0" maxOccurs="3"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="homeTeamShots" type="xs:nonNegativeInteger"/>
+                                        <xs:element name="awayTeamShots" type="xs:nonNegativeInteger"/>
+                                        <xs:element name="spectators" type="xs:nonNegativeInteger"/>
+                                        <xs:element name="description" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

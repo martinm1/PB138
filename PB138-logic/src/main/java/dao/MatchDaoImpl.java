@@ -71,7 +71,10 @@ public class MatchDaoImpl implements MatchDao {
         int homeTeamShots= Integer.parseInt(matchElement.getElementsByTagName("homeTeamShots").item(0).getTextContent());
         int awayTeamShots= Integer.parseInt(matchElement.getElementsByTagName("awayTeamShots").item(0).getTextContent());
         int spectators= Integer.parseInt(matchElement.getElementsByTagName("spectators").item(0).getTextContent());
-        String description = matchElement.getElementsByTagName("description").item(0).getTextContent();
+
+        NodeList desc = matchElement.getElementsByTagName("description");
+        String description = null;
+        if(desc.getLength() > 0) description = desc.item(0).getTextContent();
 
         match.setAwayPlayerList(awayPlayerList);
         match.setHomePlayerList(homePlayerList);
@@ -92,7 +95,7 @@ public class MatchDaoImpl implements MatchDao {
 
         goal.setMinute(Integer.parseInt(goalElement.getElementsByTagName("minute").item(0).getTextContent()));
         goal.setScorer(goalElement.getElementsByTagName("scorer").item(0).getTextContent());
-        NodeList assists = goalElement.getElementsByTagName("assist");
+            NodeList assists = goalElement.getElementsByTagName("assist");
 
         if (assists.getLength() != 0){
             goal.setFirstAssist(assists.item(0).getTextContent());
