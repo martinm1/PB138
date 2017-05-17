@@ -85,7 +85,7 @@
                                                                 <xs:element name="goal" minOccurs="0" maxOccurs="unbounded">
                                                                     <xs:complexType>
                                                                         <xs:sequence>
-                                                                            <xs:element name="minute" type="minute_type" maxOccurs="1"/>
+                                                                            <xs:element name="minute" type="minute_type" minOccurs="0" maxOccurs="1"/>
                                                                             <xs:element name="scorer" type="nonempty_string" maxOccurs="1"/>
                                                                             <xs:element name="assist" type="xs:string" minOccurs="0" maxOccurs="3"/>
                                                                         </xs:sequence>

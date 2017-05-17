@@ -144,7 +144,6 @@
                         <scorer>Ovčačík</scorer>
                         <assist>Schaus</assist>
                         <assist>T. Kaut</assist>
-                        <assist>T. Kaut</assist>
                     </goal>
                 </homeTeamGoals>
                 <awayTeamGoals>
@@ -312,7 +311,6 @@
                         <minute>18</minute>
                         <scorer>Ihnačák</scorer>
                         <assist>P. Vrána</assist>
-                        <assist>P. Vrána</assist>
                         <assist>Pech</assist>
                     </goal>
                     <goal>
@@ -346,7 +344,6 @@
                         <assist>Hrňa</assist>
                     </goal>
                     <goal>
-                        <minute></minute>
                         <scorer>Petružálek</scorer>
                     </goal>
                 </awayTeamGoals>
@@ -516,7 +513,11 @@
                         <scorer>P. Vrána</scorer>
                         <assist>Čajkovský</assist>
                         <assist>Ihnačák</assist>
-                        <assist>Pech</assist>
+                    </goal>
+                    <goal>
+                        <minute>32</minute>
+                        <scorer>Pech</scorer>
+                        <assist>Čajkovský</assist>
                         <assist>Kudrna</assist>
                     </goal>
                 </awayTeamGoals>
@@ -691,7 +692,6 @@
                         <minute>21</minute>
                         <scorer>J. Ondráček</scorer>
                         <assist>O. Veselý</assist>
-                        <assist>O. Veselý</assist>
                     </goal>
                 </awayTeamGoals>
             </goals>
@@ -755,8 +755,6 @@
                         <minute>5</minute>
                         <scorer>M. Erat</scorer>
                         <assist>O. Němec</assist>
-                        <assist>O. Němec</assist>
-                        <assist>M. Kvapil</assist>
                         <assist>M. Kvapil</assist>
                     </goal>
                     <goal>
@@ -764,24 +762,20 @@
                         <scorer>V. Němec</scorer>
                         <assist>Štencel</assist>
                         <assist>M. Kvapil</assist>
-                        <assist>M. Kvapil</assist>
                     </goal>
                     <goal>
                         <minute>21</minute>
                         <scorer>Nečas</scorer>
-                        <assist>M. Erat</assist>
                         <assist>M. Erat</assist>
                     </goal>
                     <goal>
                         <minute>37</minute>
                         <scorer>V. Němec</scorer>
                         <assist>M. Kvapil</assist>
-                        <assist>M. Kvapil</assist>
                     </goal>
                     <goal>
                         <minute>41</minute>
                         <scorer>M. Erat</scorer>
-                        <assist>O. Němec</assist>
                         <assist>O. Němec</assist>
                     </goal>
                     <goal>
@@ -979,15 +973,12 @@
                         <minute>19</minute>
                         <scorer>R. Hanzl</scorer>
                         <assist>R. Hanzl</assist>
-                        <assist>R. Hanzl</assist>
-                        <assist>J. Černý</assist>
                         <assist>J. Černý</assist>
                     </goal>
                     <goal>
                         <minute>31</minute>
                         <scorer>Lukeš</scorer>
                         <assist>Kubát</assist>
-                        <assist>V. Hübl</assist>
                         <assist>V. Hübl</assist>
                     </goal>
                 </homeTeamGoals>
@@ -1059,7 +1050,6 @@
                         <minute>2</minute>
                         <scorer>Čajkovský</scorer>
                         <assist>Pech</assist>
-                        <assist>M. Procházka</assist>
                         <assist>M. Procházka</assist>
                     </goal>
                     <goal>
@@ -1157,7 +1147,6 @@
                     <goal>
                         <minute>20</minute>
                         <scorer>Mullane</scorer>
-                        <assist>T. Rachůnek</assist>
                         <assist>T. Rachůnek</assist>
                     </goal>
                 </awayTeamGoals>
@@ -1396,7 +1385,6 @@
                         <scorer>Stránský</scorer>
                         <assist>Vantuch</assist>
                         <assist>J. Vlach</assist>
-                        <assist>J. Vlach</assist>
                     </goal>
                     <goal>
                         <minute>37</minute>
@@ -1561,7 +1549,6 @@
                     <goal>
                         <minute>15</minute>
                         <scorer>Flemming</scorer>
-                        <assist>V. Růžička</assist>
                         <assist>V. Růžička</assist>
                     </goal>
                     <goal>
@@ -1856,7 +1843,6 @@
                         <minute>6</minute>
                         <scorer>Safin</scorer>
                         <assist>M. Procházka</assist>
-                        <assist>M. Procházka</assist>
                     </goal>
                     <goal>
                         <minute>26</minute>
@@ -2014,7 +2000,6 @@
                         <minute>50</minute>
                         <scorer>Tuominen</scorer>
                         <assist>T. Rachůnek</assist>
-                        <assist>T. Rachůnek</assist>
                         <assist>Mikulík</assist>
                     </goal>
                     <goal>
@@ -2028,7 +2013,6 @@
                     <goal>
                         <minute>3</minute>
                         <scorer>Černoch</scorer>
-                        <assist>O. Procházka</assist>
                         <assist>O. Procházka</assist>
                     </goal>
                     <goal>
@@ -4188,7 +4172,6 @@
                         <minute>20</minute>
                         <scorer>Skladaný</scorer>
                         <assist>J. Galvas</assist>
-                        <assist>J. Galvas</assist>
                         <assist>Rašner</assist>
                     </goal>
                 </awayTeamGoals>
@@ -4523,7 +4506,6 @@
                         <assist>Stach</assist>
                     </goal>
                     <goal>
-                        <minute></minute>
                         <scorer>Indrák</scorer>
                     </goal>
                 </awayTeamGoals>
@@ -4700,7 +4682,6 @@
                         <scorer>Kováčik</scorer>
                         <assist>Zaťovič</assist>
                         <assist>V. Němec</assist>
-                        <assist>V. Němec</assist>
                     </goal>
                 </awayTeamGoals>
             </goals>
@@ -4761,7 +4742,6 @@
                         <minute>7</minute>
                         <scorer>Haščák</scorer>
                         <assist>V. Němec</assist>
-                        <assist>V. Němec</assist>
                         <assist>Vincour</assist>
                     </goal>
                     <goal>
@@ -4779,7 +4759,6 @@
                     <goal>
                         <minute>61</minute>
                         <scorer>Haščák</scorer>
-                        <assist>V. Němec</assist>
                         <assist>V. Němec</assist>
                     </goal>
                 </homeTeamGoals>

@@ -458,6 +458,20 @@ public class MatchXMLGemerator {
             }
             
             item = item.substring(j+1, item.length());
+            
+            if(item.contains("0")
+            || item.contains("1")
+            || item.contains("2")
+            || item.contains("3")
+            || item.contains("4")
+            || item.contains("5")
+            || item.contains("6")
+            || item.contains("7")
+            || item.contains("8")
+            || item.contains("9")){
+                throw new Exception("incorrect goal format:"+item+ ", minute:"+minute);
+            }
+            
             int checkThis = -1;
             
             if(item.contains("("))
@@ -472,7 +486,7 @@ public class MatchXMLGemerator {
                     scorer = player1;
                     
                 }
-                if(player1.contains(" ")){
+                else if(player1.contains(" ")){
                     if(item.contains(player1.substring(player1.indexOf(" ")+1, player1.length()))) {
                         checkThis = 1;
                         scorer = player1;
@@ -482,7 +496,7 @@ public class MatchXMLGemerator {
                 if(item2.contains(player1)) {
                     assistList.add(player1);
                 }
-                if(player1.contains(" ") && item2.contains(player1)) {
+                else if(player1.contains(" ") && item2.contains(player1)) {
                     if(item2.contains(player1.substring(player1.indexOf(" ")+1, player1.length()))){
                         assistList.add(player1);
                     }
@@ -498,7 +512,7 @@ public class MatchXMLGemerator {
                     scorer = player2;
                     
                 }
-                if(player2.contains(" ")){
+                else if(player2.contains(" ")){
                     if(item.contains(player2.substring(player2.indexOf(" ")+1, player2.length()))) {
                         checkOther = 1;
                         scorer = player2;
@@ -509,10 +523,11 @@ public class MatchXMLGemerator {
             }
             
             if(checkThis> -1) {
-                result+= 
-                    offset1 + "<goal>"+"\n"
-                    +offset2+"<minute>"+minute+"</minute>"+"\n"
-                    +offset2+"<scorer>"+scorer+"</scorer>"+"\n";
+                result+= offset1 + "<goal>"+"\n";
+                if(!minute.equals("")){
+                    result+= offset2+"<minute>"+minute+"</minute>"+"\n";
+                }
+                result+= offset2+"<scorer>"+scorer+"</scorer>"+"\n";
                 
                 for(String player : assistList){
                     
@@ -582,15 +597,16 @@ public class MatchXMLGemerator {
     };
     
     public static void main(String[] args) {
+        int i = 1;
         try {
             // TODO code application logic here
             //System.out.println("jsem program na upravu textu");
             MatchXMLGemerator match = new MatchXMLGemerator();
-            for(int i = 1; i<=56; i++){
+            for(; i<=56; i++){
                 match.generateMatch(i);
             }
         } catch (Exception ex) {
-            System.out.println("Failure. This exception has been thrown: "+ ex);
+            System.out.println("Failure in file number " + i + ". This exception has been thrown: "+ ex);
         }
     }
     
