@@ -576,7 +576,7 @@ public class MatchXMLGemerator {
                 +"            </goals>"+"\n"
                 +"            <homeTeamShots>"+info.get(7)+"</homeTeamShots>" + "\n"
                 +"            <awayTeamShots>"+info.get(8)+"</awayTeamShots>" + "\n"
-                +"            <spectators>"+info.get(6)+"</spectators>" + "\n"
+                +"            <spectators>"+info.get(6).replaceAll("\\s","")+"</spectators>" + "\n"
                 +"        </match>\n"
         );
     };
