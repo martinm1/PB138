@@ -20,5 +20,7 @@ public interface MatchDao {
 
     int countTotalSpectators();
 
+    Match findMatchById(Long id);
+
     int countTotalShots();
 }

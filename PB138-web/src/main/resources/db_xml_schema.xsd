@@ -44,6 +44,13 @@
                             <xs:element name="match" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
+                                        <xs:element name="id">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                    <xs:minInclusive value="0" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                         <xs:element name="date" type="custom_date_type"/>
                                         <xs:element name="homeTeam"/>
                                         <xs:element name="awayTeam"/>

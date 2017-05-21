@@ -62,6 +62,7 @@
     </teams>
     <matches>
         <match>
+            <id>2</id>
             <date>9. 9. 2016</date>
             <homeTeam>HC VÍTKOVICE RIDERA</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -147,6 +148,7 @@
             <spectators>5755</spectators>
         </match>
         <match>
+            <id>2</id>
             <date>11. 9. 2016</date>
             <homeTeam>HC Dynamo Pardubice</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -235,6 +237,7 @@
             <spectators>7707</spectators>
         </match>
         <match>
+            <id>3</id>
             <date>13. 9. 2016</date>
             <homeTeam>Bílí Tygři Liberec</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -322,6 +325,7 @@
             <spectators>5079</spectators>
         </match>
         <match>
+            <id>4</id>
             <date>16. 9. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Oceláři Třinec</awayTeam>
@@ -417,6 +421,7 @@
             <spectators>5206</spectators>
         </match>
         <match>
+            <id>5</id>
             <date>18. 9. 2016</date>
             <homeTeam>HC Olomouc</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -499,6 +504,7 @@
             <spectators>5112</spectators>
         </match>
         <match>
+            <id>6</id>
             <date>23. 9. 2016</date>
             <homeTeam>Piráti Chomutov</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -591,6 +597,7 @@
             <spectators>5072</spectators>
         </match>
         <match>
+            <id>7</id>
             <date>27. 9. 2016</date>
             <homeTeam>Mountfield Hradec Králové</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -677,6 +684,7 @@
             <spectators>5453</spectators>
         </match>
         <match>
+            <id>8</id>
             <date>30. 9. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>PSG Zlín</awayTeam>
@@ -764,6 +772,7 @@
             <spectators>5304</spectators>
         </match>
         <match>
+            <id>9</id>
             <date>2. 10. 2016</date>
             <homeTeam>HC Kometa Brno</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -867,6 +876,7 @@
             <spectators>7700</spectators>
         </match>
         <match>
+            <id>10</id>
             <date>7. 10. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>BK Mladá Boleslav</awayTeam>
@@ -969,6 +979,7 @@
             <spectators>5575</spectators>
         </match>
         <match>
+            <id>11</id>
             <date>9. 10. 2016</date>
             <homeTeam>HC VERVA Litvínov</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1060,6 +1071,7 @@
             <spectators>5840</spectators>
         </match>
         <match>
+            <id>12</id>
             <date>16. 10. 2016</date>
             <homeTeam>HC Škoda Plzeň</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1143,6 +1155,7 @@
             <spectators>4530</spectators>
         </match>
         <match>
+            <id>13</id>
             <date>18. 10. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Energie Karlovy Vary</awayTeam>
@@ -1220,6 +1233,7 @@
             <spectators>6416</spectators>
         </match>
         <match>
+            <id>14</id>
             <date>21. 10. 2016</date>
             <homeTeam>HC VÍTKOVICE RIDERA</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1299,6 +1313,7 @@
             <spectators>5467</spectators>
         </match>
         <match>
+            <id>15</id>
             <date>23. 10. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Dynamo Pardubice</awayTeam>
@@ -1383,6 +1398,7 @@
             <spectators>7983</spectators>
         </match>
         <match>
+            <id>16</id>
             <date>25. 10. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>Bílí Tygři Liberec</awayTeam>
@@ -1468,6 +1484,7 @@
             <spectators>7244</spectators>
         </match>
         <match>
+            <id>17</id>
             <date>30. 10. 2016</date>
             <homeTeam>HC Oceláři Třinec</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1554,6 +1571,7 @@
             <spectators>4922</spectators>
         </match>
         <match>
+            <id>18</id>
             <date>11. 11. 2016</date>
             <homeTeam>Piráti Chomutov</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1673,6 +1691,7 @@
             <spectators>4829</spectators>
         </match>
         <match>
+            <id>19</id>
             <date>13. 11. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>Mountfield Hradec Králové</awayTeam>
@@ -1759,6 +1778,7 @@
             <spectators>8713</spectators>
         </match>
         <match>
+            <id>20</id>
             <date>15. 11. 2016</date>
             <homeTeam>PSG Zlín</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1837,6 +1857,7 @@
             <spectators>4134</spectators>
         </match>
         <match>
+            <id>21</id>
             <date>20. 11. 2016</date>
             <homeTeam>BK Mladá Boleslav</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1932,6 +1953,7 @@
             <spectators>4009</spectators>
         </match>
         <match>
+            <id>22</id>
             <date>25. 11. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC VERVA Litvínov</awayTeam>
@@ -2004,6 +2026,7 @@
             <spectators>9328</spectators>
         </match>
         <match>
+            <id>23</id>
             <date>27. 11. 2016</date>
             <homeTeam>HC Energie Karlovy Vary</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -2098,6 +2121,7 @@
             <spectators>2842</spectators>
         </match>
         <match>
+            <id>24</id>
             <date>29. 11. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Kometa Brno</awayTeam>
@@ -2181,6 +2205,7 @@
             <spectators>12025</spectators>
         </match>
         <match>
+            <id>25</id>
             <date>2. 12. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Škoda Plzeň</awayTeam>
@@ -2257,6 +2282,7 @@
             <spectators>7036</spectators>
         </match>
         <match>
+            <id>26</id>
             <date>4. 12. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC VÍTKOVICE RIDERA</awayTeam>
@@ -2353,6 +2379,7 @@
             <spectators>5751</spectators>
         </match>
         <match>
+            <id>27</id>
             <date>9. 12. 2016</date>
             <homeTeam>HC Dynamo Pardubice</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -2445,6 +2472,7 @@
             <spectators>8455</spectators>
         </match>
         <match>
+            <id>28</id>
             <date>11. 12. 2016</date>
             <homeTeam>Bílí Tygři Liberec</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -2525,6 +2553,7 @@
             <spectators>7309</spectators>
         </match>
         <match>
+            <id>29</id>
             <date>20. 12. 2016</date>
             <homeTeam>HC Oceláři Třinec</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -2603,6 +2632,7 @@
             <spectators>5064</spectators>
         </match>
         <match>
+            <id>30</id>
             <date>22. 12. 2016</date>
             <homeTeam>HC Olomouc</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -2694,6 +2724,7 @@
             <spectators>4556</spectators>
         </match>
         <match>
+            <id>31</id>
             <date>26. 12. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>Piráti Chomutov</awayTeam>
@@ -2780,6 +2811,7 @@
             <spectators>8231</spectators>
         </match>
         <match>
+            <id>32</id>
             <date>30. 12. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>PSG Zlín</awayTeam>
@@ -2855,6 +2887,7 @@
             <spectators>8343</spectators>
         </match>
         <match>
+            <id>33</id>
             <date>3. 1. 2017</date>
             <homeTeam>HC Kometa Brno</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -2947,6 +2980,7 @@
             <spectators>7700</spectators>
         </match>
         <match>
+            <id>34</id>
             <date>6. 1. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>BK Mladá Boleslav</awayTeam>
@@ -3028,6 +3062,7 @@
             <spectators>6238</spectators>
         </match>
         <match>
+            <id>35</id>
             <date>8. 1. 2017</date>
             <homeTeam>HC VERVA Litvínov</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -3112,6 +3147,7 @@
             <spectators>5782</spectators>
         </match>
         <match>
+            <id>36</id>
             <date>13. 1. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Energie Karlovy Vary</awayTeam>
@@ -3185,6 +3221,7 @@
             <spectators>5122</spectators>
         </match>
         <match>
+            <id>37</id>
             <date>15. 1. 2017</date>
             <homeTeam>HC Škoda Plzeň</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -3269,6 +3306,7 @@
             <spectators>6079</spectators>
         </match>
         <match>
+            <id>38</id>
             <date>22. 1. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Dynamo Pardubice</awayTeam>
@@ -3356,6 +3394,7 @@
             <spectators>7516</spectators>
         </match>
         <match>
+            <id>39</id>
             <date>24. 1. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC VÍTKOVICE RIDERA</awayTeam>
@@ -3426,6 +3465,7 @@
             <spectators>4011</spectators>
         </match>
         <match>
+            <id>40</id>
             <date>27. 1. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>Bílí Tygři Liberec</awayTeam>
@@ -3519,6 +3559,7 @@
             <spectators>8566</spectators>
         </match>
         <match>
+            <id>41</id>
             <date>29. 1. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Oceláři Třinec</awayTeam>
@@ -3656,6 +3697,7 @@
             <spectators>14020</spectators>
         </match>
         <match>
+            <id>42</id>
             <date>31. 1. 2017</date>
             <homeTeam>Mountfield Hradec Králové</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -3730,6 +3772,7 @@
             <spectators>5367</spectators>
         </match>
         <match>
+            <id>43</id>
             <date>3. 2. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Olomouc</awayTeam>
@@ -3821,6 +3864,7 @@
             <spectators>14370</spectators>
         </match>
         <match>
+            <id>44</id>
             <date>5. 2. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>Piráti Chomutov</awayTeam>
@@ -3903,6 +3947,7 @@
             <spectators>6370</spectators>
         </match>
         <match>
+            <id>45</id>
             <date>15. 2. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>Mountfield Hradec Králové</awayTeam>
@@ -3998,6 +4043,7 @@
             <spectators>7990</spectators>
         </match>
         <match>
+            <id>46</id>
             <date>17. 2. 2017</date>
             <homeTeam>PSG Zlín</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -4084,6 +4130,7 @@
             <spectators>5204</spectators>
         </match>
         <match>
+            <id>47</id>
             <date>19. 2. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Kometa Brno</awayTeam>
@@ -4166,6 +4213,7 @@
             <spectators>11974</spectators>
         </match>
         <match>
+            <id>48</id>
             <date>21. 2. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Olomouc</awayTeam>
@@ -4245,6 +4293,7 @@
             <spectators>4579</spectators>
         </match>
         <match>
+            <id>49</id>
             <date>24. 2. 2017</date>
             <homeTeam>BK Mladá Boleslav</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -4334,6 +4383,7 @@
             <spectators>3669</spectators>
         </match>
         <match>
+            <id>50</id>
             <date>26. 2. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC VERVA Litvínov</awayTeam>
@@ -4416,6 +4466,7 @@
             <spectators>11074</spectators>
         </match>
         <match>
+            <id>51</id>
             <date>28. 2. 2017</date>
             <homeTeam>HC Energie Karlovy Vary</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -4494,6 +4545,7 @@
             <spectators>2717</spectators>
         </match>
         <match>
+            <id>52</id>
             <date>3. 3. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Škoda Plzeň</awayTeam>
@@ -4580,6 +4632,7 @@
             <spectators>9854</spectators>
         </match>
         <match>
+            <id>53</id>
             <date>13. 3. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Kometa Brno</awayTeam>
@@ -4669,6 +4722,7 @@
             <spectators>11517</spectators>
         </match>
         <match>
+            <id>54</id>
             <date>14. 3. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Kometa Brno</awayTeam>
@@ -4755,6 +4809,7 @@
             <spectators>13003</spectators>
         </match>
         <match>
+            <id>55</id>
             <date>17. 3. 2017</date>
             <homeTeam>HC Kometa Brno</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -4852,6 +4907,7 @@
             <spectators>7700</spectators>
         </match>
         <match>
+            <id>56</id>
             <date>18. 3. 2017</date>
             <homeTeam>HC Kometa Brno</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>

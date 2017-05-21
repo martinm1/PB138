@@ -68,7 +68,8 @@ public class MatchDaoImpl implements MatchDao {
         int homeTeamShots= Integer.parseInt(matchElement.getElementsByTagName("homeTeamShots").item(0).getTextContent());
         int awayTeamShots= Integer.parseInt(matchElement.getElementsByTagName("awayTeamShots").item(0).getTextContent());
         int spectators= Integer.parseInt(matchElement.getElementsByTagName("spectators").item(0).getTextContent());
-
+        long id = Long.parseLong(matchElement.getElementsByTagName("id").item(0).getTextContent());
+        match.setId(id);
         match.setAwayPlayerList(awayPlayerList);
         match.setHomePlayerList(homePlayerList);
         match.setAwayTeam(awayTeam);
@@ -183,5 +184,20 @@ public class MatchDaoImpl implements MatchDao {
         } catch (XPathExpressionException e) {
         }
         return totalShots;
+    }
+
+    @Override
+    public Match findMatchById(Long id) {
+        Match match = null;
+        try{
+            XPathExpression expr = xPath.compile("./database/matches/match/id[text()="+id+"]/parent::match");
+            NodeList awayMatchesNodeList= (NodeList) expr.evaluate(documentDB, XPathConstants.NODESET);
+            for(int i=0;i<awayMatchesNodeList.getLength();i++){
+                match = getMatchFromElement((Element) awayMatchesNodeList.item(i));
+            }
+        } catch (XPathExpressionException e) {
+
+        }
+        return match;
     }
 }
