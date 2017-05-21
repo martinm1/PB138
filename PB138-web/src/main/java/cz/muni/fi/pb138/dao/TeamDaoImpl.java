@@ -37,6 +37,7 @@ public class TeamDaoImpl implements TeamDao{
             Element element= (Element) nodeList.item(0);
             team= new Team();
             team.setName(element.getElementsByTagName("name").item(0).getTextContent());
+            team.setLogoPath(element.getElementsByTagName("logo").item(0).getTextContent());
         } catch (XPathExpressionException e) {
             e.printStackTrace();
         }
