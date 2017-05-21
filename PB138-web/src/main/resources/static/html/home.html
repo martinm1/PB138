@@ -1,3 +1,11 @@
+<div class="ui button" ng-click="homeController.refreshHome()" tabindex="0">Iba doma</div>
+<div class="ui button" ng-click="homeController.refreshAway()" tabindex="0">Iba vonku</div>
+<div class="ui button" ng-click="homeController.refreshAll()" tabindex="0">Všetko</div>
+<br>
+Celkový počet divákov za sezónu : {{homeController.totalSpectators}}
+<br>
+Celkový počet striel za sezónu : {{homeController.totalShots}}
+<br>
 <table class="ui celled padded table">
     <thead>
     <tr><th class="single line">Domáci</th>
@@ -25,7 +33,7 @@
             <h1><a ui-sref="match({matchId : 1})">3:2sn</a></h1>
         </td>
     </tr>
-    <tr>
+    <tr ng-repeat="match in homeController.matches">
         <td>
             <img src="../logos/chm.png" width="50"/>
         </td>
@@ -33,14 +41,14 @@
             <img src="../logos/spa.png" width="50"/>
         </td>
         <td class="single line">
-            Piráti Chomutov - HC Sparta Praha
+            {{match.homeTeam.name}} - {{match.awayTeam.name}}
         </td>
         <td class="right aligned">
-            1.kolo <br>
-            pátek 23. 9. 2016
+            X.kolo <br>
+            {{match.matchDate}}
         </td>
         <td>
-            <h1><a ui-sref="match({matchId : 1})">3:2sn</a></h1>
+            <h1><a ui-sref="match({matchId : 1})">{{match.homeTeamGoals.length}}:{{match.awayTeamGoals.length}}</a></h1>
         </td>
     </tr>
     </tbody>

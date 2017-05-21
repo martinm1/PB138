@@ -75,7 +75,7 @@ public class MatchDaoImpl implements MatchDao {
         match.setAwayTeam(awayTeam);
         match.setHomeTeam(homeTeam);
         match.setAwayTeamGoals(awayTeamGoals);
-        match.setHometeamGoals(homeTeamGoals);
+        match.setHomeTeamGoals(homeTeamGoals);
         match.setDescription(description);
         match.setHomeTeamShots(homeTeamShots);
         match.setAwayTeamShots(awayTeamShots);

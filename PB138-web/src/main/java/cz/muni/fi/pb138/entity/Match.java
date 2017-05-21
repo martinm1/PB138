@@ -19,7 +19,7 @@ public class Match {
   private Team awayTeam;
   private List<String> homePlayerList;
   private List<String> awayPlayerList;
-  private List<Goal> hometeamGoals;
+  private List<Goal> homeTeamGoals;
   private List<Goal> awayTeamGoals;
   private int spectators;
   private int homeTeamShots;
@@ -75,12 +75,12 @@ public class Match {
     this.awayPlayerList = awayPlayerList;
   }
 
-  public List<Goal> getHometeamGoals() {
-    return hometeamGoals;
+  public List<Goal> getHomeTeamGoals() {
+    return homeTeamGoals;
   }
 
-  public void setHometeamGoals(List<Goal> hometeamGoals) {
-    this.hometeamGoals = hometeamGoals;
+  public void setHomeTeamGoals(List<Goal> homeTeamGoals) {
+    this.homeTeamGoals = homeTeamGoals;
   }
 
   public List<Goal> getAwayTeamGoals() {
