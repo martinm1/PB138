@@ -3,12 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dao;
+package cz.muni.fi.pb138.dao;
 
-import cz.muni.fi.pb138.db.entity.Team;
-
-import java.util.ArrayList;
-import java.util.List;
+import cz.muni.fi.pb138.entity.Team;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.w3c.dom.Document;
@@ -16,6 +13,8 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
 import javax.xml.xpath.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *

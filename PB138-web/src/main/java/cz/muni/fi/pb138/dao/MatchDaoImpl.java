@@ -1,20 +1,17 @@
-package dao;
+package cz.muni.fi.pb138.dao;
 
-import cz.muni.fi.pb138.db.entity.Goal;
-import cz.muni.fi.pb138.db.entity.Match;
-import cz.muni.fi.pb138.db.entity.Team;
+import cz.muni.fi.pb138.entity.Goal;
+import cz.muni.fi.pb138.entity.Match;
+import cz.muni.fi.pb138.entity.Team;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
+import javax.xml.xpath.*;
 import java.util.ArrayList;
 import java.util.List;
-
-
-import javax.validation.constraints.Null;
-import javax.xml.xpath.*;
 
 /**
  * Created by lauro on 8.5.2017.
@@ -32,7 +29,7 @@ public class MatchDaoImpl implements MatchDao {
     private XPath xPath;
 
 
-    public MatchDaoImpl(){
+    MatchDaoImpl(){
         XPathFactory xPathfactory = XPathFactory.newInstance();
         xPath = xPathfactory.newXPath();
     }
@@ -71,10 +68,7 @@ public class MatchDaoImpl implements MatchDao {
         int homeTeamShots= Integer.parseInt(matchElement.getElementsByTagName("homeTeamShots").item(0).getTextContent());
         int awayTeamShots= Integer.parseInt(matchElement.getElementsByTagName("awayTeamShots").item(0).getTextContent());
         int spectators= Integer.parseInt(matchElement.getElementsByTagName("spectators").item(0).getTextContent());
-
-        NodeList desc = matchElement.getElementsByTagName("description");
-        String description = null;
-        if(desc.getLength() > 0) description = desc.item(0).getTextContent();
+        String description = matchElement.getElementsByTagName("description").item(0).getTextContent();
 
         match.setAwayPlayerList(awayPlayerList);
         match.setHomePlayerList(homePlayerList);
@@ -90,20 +84,13 @@ public class MatchDaoImpl implements MatchDao {
         return match;
     }
 
-    private Goal getGoalFromElement(Element goalElement) {
+    private Goal getGoalFromElement(Element goalElement){
         Goal goal = new Goal();
-
         goal.setMinute(Integer.parseInt(goalElement.getElementsByTagName("minute").item(0).getTextContent()));
         goal.setScorer(goalElement.getElementsByTagName("scorer").item(0).getTextContent());
-            NodeList assists = goalElement.getElementsByTagName("assist");
-
-        if (assists.getLength() != 0){
-            goal.setFirstAssist(assists.item(0).getTextContent());
-            if(assists.getLength()> 1) goal.setSecondAssist(assists.item(1).getTextContent());
-        }
-
         return goal;
     }
+
 
     @Override
     public List<Match> getAllMatches() {

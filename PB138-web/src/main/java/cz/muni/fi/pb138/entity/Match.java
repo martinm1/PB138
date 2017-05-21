@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cz.muni.fi.pb138.db.entity;
+package cz.muni.fi.pb138.entity;
 
 import java.time.LocalDate;
 import java.util.List;

@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cz.muni.fi.pb138.db.entity;
-
-import java.util.List;
+package cz.muni.fi.pb138.entity;
 
 /**
  *

@@ -1,4 +1,4 @@
-package config;
+package cz.muni.fi.pb138.config;
 
 
 import java.io.File;
