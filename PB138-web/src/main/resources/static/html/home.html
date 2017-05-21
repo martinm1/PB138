@@ -15,40 +15,21 @@ Celkový počet striel za sezónu : {{homeController.totalShots}}
         <th>Skóre</th>
     </tr></thead>
     <tbody>
-    <tr>
-        <td>
-            <img src="../logos/chm.png" width="50"/>
-        </td>
-        <td>
-            <img src="../logos/spa.png" width="50"/>
-        </td>
-        <td class="single line">
-            Piráti Chomutov - HC Sparta Praha
-        </td>
-        <td class="right aligned">
-            1.kolo <br>
-            pátek 23. 9. 2016
-        </td>
-        <td>
-            <h1><a ui-sref="match({matchId : 1})">3:2sn</a></h1>
-        </td>
-    </tr>
     <tr ng-repeat="match in homeController.matches">
         <td>
-            <img src="../logos/chm.png" width="50"/>
+            <img src="../logos/{{match.homeTeam.logoPath}}.png" width="50"/>
         </td>
         <td>
-            <img src="../logos/spa.png" width="50"/>
+            <img src="../logos/{{match.awayTeam.logoPath}}.png" width="50"/>
         </td>
         <td class="single line">
             {{match.homeTeam.name}} - {{match.awayTeam.name}}
         </td>
         <td class="right aligned">
-            X.kolo <br>
-            {{match.matchDate}}
+            {{match.matchDate.dayOfMonth}}. {{match.matchDate.monthValue}}. {{match.matchDate.year}}
         </td>
         <td>
-            <h1><a ui-sref="match({matchId : 1})">{{match.homeTeamGoals.length}}:{{match.awayTeamGoals.length}}</a></h1>
+            <h1><a ui-sref="match({matchId : match.id})">{{match.homeTeamGoals.length}}:{{match.awayTeamGoals.length}}</a></h1>
         </td>
     </tr>
     </tbody>

@@ -56,4 +56,8 @@ public class MatchResource {
         return matchDao.countTotalShots();
     }
 
+    @RequestMapping(value = "/findMatchById", method = RequestMethod.GET)
+    public Match findMatchById(@RequestParam(value = "id", required = true)Long id){
+        return matchDao.findMatchById(id);
+    }
 }

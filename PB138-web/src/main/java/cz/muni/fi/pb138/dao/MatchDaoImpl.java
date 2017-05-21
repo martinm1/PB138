@@ -10,6 +10,8 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
 import javax.xml.xpath.*;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,12 +42,14 @@ public class MatchDaoImpl implements MatchDao {
         List<String> homePlayerList= new ArrayList<>();
         NodeList homePlayersNodeList= matchElement.getElementsByTagName("homePlayers").item(0).getChildNodes();
         for(int i=0; i<homePlayersNodeList.getLength();i++){
-            homePlayerList.add(homePlayersNodeList.item(i).getTextContent());
+            if(i % 2 != 0)
+                homePlayerList.add(homePlayersNodeList.item(i).getTextContent());
         }
         List<String> awayPlayerList= new ArrayList<>();
         NodeList awayPlayersNodeList= matchElement.getElementsByTagName("awayPlayers").item(0).getChildNodes();
         for(int i=0; i<awayPlayersNodeList.getLength();i++){
-            awayPlayerList.add(awayPlayersNodeList.item(i).getTextContent());
+            if(i % 2 != 0)
+                awayPlayerList.add(awayPlayersNodeList.item(i).getTextContent());
         }
 
         Element goalsElement = (Element) matchElement.getElementsByTagName("goals").item(0);
@@ -69,6 +73,12 @@ public class MatchDaoImpl implements MatchDao {
         int awayTeamShots= Integer.parseInt(matchElement.getElementsByTagName("awayTeamShots").item(0).getTextContent());
         int spectators= Integer.parseInt(matchElement.getElementsByTagName("spectators").item(0).getTextContent());
         long id = Long.parseLong(matchElement.getElementsByTagName("id").item(0).getTextContent());
+        String dateString = matchElement.getElementsByTagName("date").item(0).getTextContent();
+        String[] array = dateString.split(" ");
+        int day = Integer.parseInt(array[0].substring(0,array[0].length()-1));
+        int month = Integer.parseInt(array[1].substring(0,array[1].length()-1));
+        int year = Integer.parseInt(array[2]);
+        match.setMatchDate(LocalDate.of(year, month, day));
         match.setId(id);
         match.setAwayPlayerList(awayPlayerList);
         match.setHomePlayerList(homePlayerList);
@@ -87,6 +97,13 @@ public class MatchDaoImpl implements MatchDao {
         Goal goal = new Goal();
         goal.setMinute(Integer.parseInt(goalElement.getElementsByTagName("minute").item(0).getTextContent()));
         goal.setScorer(goalElement.getElementsByTagName("scorer").item(0).getTextContent());
+        NodeList assists = goalElement.getElementsByTagName("assist");
+
+        if (assists.getLength() != 0){
+            goal.setFirstAssist(assists.item(0).getTextContent());
+            if(assists.getLength()> 1) goal.setSecondAssist(assists.item(1).getTextContent());
+        }
+
         return goal;
     }
 

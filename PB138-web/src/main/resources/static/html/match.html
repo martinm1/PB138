@@ -3,20 +3,20 @@
         <table class="ui celled padded table">
             <tr>
                 <td>
-                    <img src="../logos/chm.png" width="50"/>
+                    <img src="../logos/{{matchController.match.homeTeam.logoPath}}.png" width="50"/>
                 </td>
                 <td>
-                    <img src="../logos/spa.png" width="50"/>
+                    <img src="../logos/{{matchController.match.awayTeam.logoPath}}.png" width="50"/>
                 </td>
                 <td class="single line">
-                    Piráti Chomutov - HC Sparta Praha
+                    {{matchController.match.homeTeam.name}} - {{matchController.match.homeTeam.name}}
                 </td>
                 <td class="right aligned">
-                    1.kolo <br>
-                    pátek 23. 9. 2016
+                    {{matchController.match.matchDate.dayOfMonth}}. {{matchController.match.matchDate.monthValue}}. {{matchController.match.matchDate.year}}
+
                 </td>
                 <td>
-                    <h1>3:2sn</h1>
+                    <h1>{{matchController.match.homeTeamGoals.length}}:{{matchController.match.awayTeamGoals.length}}</h1>
                 </td>
             </tr>
         </table>
@@ -24,43 +24,25 @@
     <div class="ui segment">
         <div class="ui piled segments">
             <div class="ui segment">
-                <p>HC VÍTKOVICE RIDERA: Bartošák - L. Kovář, Baranka, Klok, Sloboda, Urbanec, Výtisk, D. Krenželok – P. Zdráhal, O. Roman, Květoň – Vandas, Kolouch, Kucsera – Olesz (C), Illéš, Szturc – Tomi, Balán, Kurovský – E. Němec. Trenér: Jakub Petr.</p>
+                <p>{{matchController.match.homeTeam.name}} - {{matchController.match.homePlayerList.join(", ")}}</p>
             </div>
             <div class="ui segment">
-                <p>HC Sparta Praha: Pöpperle - Čajkovský, J. Mikuš, Eminger, Barinka, Kalina, Švrček, Hrbas, Piskáček – Ihnačák (C), P. Vrána, Ružička – Forman, Cingel, Uher – Netík, Pech, Kumstát – Kudrna, Černoch, O. Procházka. Trenéři: Zdeněk Moták a Jiří Veber.</p>
+                <p>{{matchController.match.awayTeam.name}} - {{matchController.match.awayPlayerList.join(", ")}}</p>
             </div>
             <div class="ui segment">
-                <p>Branky a nahrávky: 8. Vandas, 9. Roman (Kucsera, D. Květoň), 65. rozhodující sam. nájezd Szturc - 12. Netík (Kumstát, Pech), 45. Netík (Kumstát). Rozhodčí: Čech, Úlehla - Flegl, Polonyi. Vyloučení: 9:11, navíc Ihnačák (SPA) 5 minut + do konce utkání. Využití: 1:0. V oslabení: 1:1. Diváci: 5755. Střely na branku: 33:27. Průběh utkání: 2:0, 2:2, 3:2. Nejlepší hráči utkání: Ondřej Roman - Tomáš Netík.</p>
+                <p>Branky a nahrávky:
+                    <span ng-repeat="goal in matchController.match.homeTeamGoals">
+                        {{goal.minute}}. {{goal.scorer}}{{goal.firstAssist ? "(" : ""}}{{goal.firstAssist}}{{goal.secondAssist ? ", " : ""}}{{goal.secondAssist}}{{goal.firstAssist ? ") " : ""}}
+                    </span>
+                    -   <span ng-repeat="goal in matchController.match.awayTeamGoals">
+                        {{goal.minute}}. {{goal.scorer}}{{goal.firstAssist ? "(" : ""}}{{goal.firstAssist}}{{goal.secondAssist ? ", " : ""}}{{goal.secondAssist}}{{goal.firstAssist ? ") " : ""}}
+                    </span>
+                </p>
             </div>
         </div>
     </div>
     <div class="ui segment">
-        <p>V prvním kole nové sezony Tipsport extraligy zajížděli sparťanští hokejisté na led do ostravských Vítkovic, kde se odehrála strhující podívaná. Domácí vedli už v polovině první třetiny 2:0, ale Pražané poté začali hrát více agresivněji a odměnou jim bylo vyrovnání z hole Tomáše Netíka. Duel nerozhodlo ani následné prodloužení, které se hraje novým systémem 3 proti 3. Oba týmy si tak vyzkoušely dovednostní soutěž, ve které rozhodl domácí Roman Szturc a zařídil tak svému výběru bonusový bod za výhru 3:2 po samostatných nájezdech.
-            Komentář
-
-            Sparta dorazila do Ostravy bez kapitána Jaroslava Hlinky, zato s novou posilou Štefanem Ružičkou. Úvodní sekvence zápasu patřily aktivně hrajícím Vítkovicím. Ty ustály dvě oslabení a při té druhé dokonce hráči v rudých dresech inkasovali. Michael Vandas se dokázal na modré čáře uvolnit přes Čajkovského a individuální sólo zakončil zavěšením puku pod víko – 1:0. Slušně zaplněná aréna jásala a krátce na to měla už druhý důvod k radosti.
-
-            Útočné přečíslení v přesilovce čtyř proti třem zužitkovala dvojice Lukáš Kucsera – Ondřej Roman. Kucsera pálil z levého kruhu, Pöpperle pouze instinktivně vyrazil na druhou stranu, kde už ale na dorážku dojížděl připravený Ondřej Roman a zvýšil na 2:0. Szturc mohl vzápětí přidat třetí gól, ale tentokrát už Pöpperle odrážel kotouč do bezpečí. Sparta se z direktu prvních deseti minut těžce zvedala.
-
-            Výrazně jí v tom pomohl gól důrazného Tomáše Netíka, který se ve dvanácté minutě prosadil v bezprostřední blízkosti domácí branky. Oba týmy se následně střídaly v neproměňování šancí, pěkných kombinacích a přibylo také šarvátek a osobních soubojů. Gólové radosti se ale žádný z fanouškovských táborů nedočkal a do šaten se šlo za stavu 2:1 pro domácí hokejisty.
-
-            Ve druhé třetině hráli domácí celkem třikrát v početní nevýhodě. Sparta je pokaždé přitlačila do obranného pásma, přesto Ostravané všechny početní nevýhody ustáli. Sparťané měli řadu šancí, jenže Patrik Bartošák jim nedával mnoho nadějí na vyrovnání. Ve 33. minutě navíc proti přesile sparťanů ohrozil Pöpperleho bránu Roman, únik zakončený blafákem mu ale nevyšel. Druhá perioda byla také hodně nervózní a bylo znát, že souboj nese emoce na hřišti a také v hledišti, kam zavítalo přes pět a půl tisíce diváků.
-
-            Pokud byste se jich zeptali na hodnocení, zřejmě by k jejich naprosté spokojenosti chyběly pouze další branky. Těch se ovšem nedočkali a v závěru prostředního dějství jim právem zatrnulo. Po střetu s Ihnačákem zůstal na ledě otřesený Kucsera a sparťané museli dohrávat bez své letní posily, která obdržela trest do konce utkání. Vítkovický útočník opustil led pro změnu na nosítkách, přesto by měl být v pořádku.
-
-            Třetí dějství přineslo více přesilových her na straně Vítkovic. Během pětiminutového trestu za Ihnačákův faul kupili sparťané další fauly a nabídli Ostravanům dvě početní výhody dvou hráčů v poli navíc. Vítkovice byly velmi aktivní a snažily se ohrozit Pöpperleho branku, o čemž svědčí tyč Koloucha nebo Oleszův pokus v pádu. Brankář Sparty však nadále držel svůj tým ve hře, a tak zůstaly domácí přesilovky nevyužité. Sparta klopýtnutí soupeře využila.
-
-            V oslabení tří proti čtyřem vystihl Tomáš Netík chybnou přihrávku na modré čáře, sám vyrazil na Bartošáka a podruhé uspěl – 2:2. Vyrovnání změnilo obraz hry. Sparta se snažila využívat okének v obraně Vítkovic k rychlým brejkům a byl to znovu Patrik Bartošák, který likvidoval šance soupeře. Pět minut před koncem se pro změnu pokusil překvapit Pöpperleho útočník Zdráhal, což se mu téměř podařilo. V posledních vteřinách zápasu zahrávali domácí ještě početní výhodu, kterou proti důsledně bránícím sparťanům nevyužili.
-
-            Část početní výhody si tedy přenesli do pětiminutového prodloužení, v němž si oba týmy vyzkoušely hru tří proti třem. Příliš si ho však neužily, protože sparťané ještě jednou faulovali, proto hráli ve třech proti čtyřem. Prodloužení přesto branku nenabídlo a rozhodnout musely samostatné nájezdy.
-
-            Tři série na každé straně začínali hráči Vítkovic. David Květoň sice přestřelil, jenže na druhé straně neuspěl ani Miroslav Forman. Jeho protějšek Roman Szturc ve druhé sérii vystřelil na Pöpperleho a svým pokusem uspěl. Tomáš Netík vzápětí pálil pouze do brankové konstrukce a nabídl svému soupeři mečbol. Domácí borci využili hned první, když se jmenovitě prosadil Ondřej Roman. Pražané se tak vrací do Prahy se ziskem jednoho bodu.
-
-            Ohlasy trenérů
-
-            Jakub Petr (HC Vítkovice Ridera): "Měli jsme výborný vstup do utkání. Jsem rád, že se nám podařilo z úvodních šancí skórovat. Pak se ale zápas dostal do úrovně, kde se to čekalo - Sparta byla hokejovější. Mrzí mě ale trošku první gól. To byla standardka, na které jsme se připravovali. Jeden z hráčů zaspal a odkryl prostor. Pak tam byla spousta nerovnovážných stavů, což vzalo dost sil na obou stranách. Nepopírám, že z těch přesilových her jsme měli rozhodnout. Ale únava už sehrála své. Za stavu 2:2 byla Sparta znovu lepším mužstvem, proto jsme rádi, že to dopadlo za dva body."
-
-            Zdeněk Moták (HC Sparta Praha): "Troufám si říci, že jsme na úvod sezony viděli kvalitní utkání. Bylo tam nasazení, pohyb, z toho pohledu si fanoušek přišel na své. My jsme bohužel nemohli pomýšlet na lepší výsledek, protože jsme často faulovali a hráli oslabení. Ale v těch jsme to zase na druhou stranu uhráli dobře, za to hráčům musím poděkovat. Trenér Kalous nám do koučinku během utkání vůbec nezasahoval, nechal to na nás dvou s Jirkou Veberem."</p>
-        <div class="ui button" ui-sref="home" tabindex="0">Back</div>
+        <p> {{matchController.match.description}}
+        <div class="ui button" ui-sref="home" tabindex="0">Back</div></p>
     </div>
 </div>

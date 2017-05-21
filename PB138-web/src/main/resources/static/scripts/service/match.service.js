@@ -36,6 +36,15 @@ angular.module('sparta')
                 return $http.get('/match/countTotalShots').then(function (response) {
                     return response.data;
                 })
+            },
+            findMatchById: function (id) {
+                return $http.get('/match/findMatchById', {
+                    params: {
+                        id: id
+                    }
+                }).then(function (response) {
+                    return response.data;
+                });
             }
         }
     });
