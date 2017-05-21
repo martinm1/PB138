@@ -595,6 +595,7 @@ public class MatchXMLGenerator {
                 +"            <homeTeamShots>"+info.get(7)+"</homeTeamShots>" + "\n"
                 +"            <awayTeamShots>"+info.get(8)+"</awayTeamShots>" + "\n"
                 +"            <spectators>"+info.get(6).replaceAll("\\s","")+"</spectators>" + "\n"
+                +"            <description>"+info.get(9)+"            </description>" + "\n"  
                 +"        </match>\n"
         );
     };
