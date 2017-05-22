@@ -32,6 +32,8 @@ public class MatchResource {
 
     @RequestMapping(value = "/getAllMatchesAgainstTeam", method = RequestMethod.GET)
     public List<Match> getAllMatchesAgainstTeam(@RequestParam(value = "name", required = true)String name){
+        if(name.equals(""))
+            return matchDao.getAllMatches();
         Team team = teamDao.findTeam(name);
         return matchDao.getAllMatchesAgainstTeam(team);
     }
