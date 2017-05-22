@@ -183,7 +183,9 @@ public class MatchXMLGenerator {
         String awayTeamShots;
         String description;
         
+        
         //skip day and number
+        
         while(str.charAt(j) != ' '){
             j++;
         }
@@ -575,6 +577,7 @@ public class MatchXMLGenerator {
         
         writeToFile(
                  "        <match>"+"\n"
+                +"            <id>"+matchNumber+"</id>"+"\n"
                 +"            <date>"+info.get(0)+"</date>"+"\n"
                 +"            <homeTeam>"+info.get(1)+"</homeTeam>"+"\n"
                 +"            <awayTeam>"+info.get(2)+"</awayTeam>"+"\n"
@@ -595,7 +598,7 @@ public class MatchXMLGenerator {
                 +"            <homeTeamShots>"+info.get(7)+"</homeTeamShots>" + "\n"
                 +"            <awayTeamShots>"+info.get(8)+"</awayTeamShots>" + "\n"
                 +"            <spectators>"+info.get(6).replaceAll("\\s","")+"</spectators>" + "\n"
-                +"            <description>"+info.get(9)+"            </description>" + "\n"  
+                +"            <description>"+info.get(9)+"</description>" + "\n"  
                 +"        </match>\n"
         );
     };

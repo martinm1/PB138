@@ -62,6 +62,7 @@
     </teams>
     <matches>
         <match>
+            <id>1</id>
             <date>9. 9. 2016</date>
             <homeTeam>HC VÍTKOVICE RIDERA</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -146,9 +147,10 @@
             <awayTeamShots>27</awayTeamShots>
             <spectators>5755</spectators>
             <description>V prvním kole nové sezony Tipsport extraligy zajížděli sparťanští hokejisté na led do ostravských Vítkovic, kde se odehrála strhující podívaná. Domácí vedli už v polovině první třetiny 2:0, ale Pražané poté začali hrát více agresivněji a odměnou jim bylo vyrovnání z hole Tomáše Netíka. Duel nerozhodlo ani následné prodloužení, které se hraje novým systémem 3 proti 3. Oba týmy si tak vyzkoušely dovednostní soutěž, ve které rozhodl domácí Roman Szturc a zařídil tak svému výběru bonusový bod za výhru 3:2 po samostatných nájezdech. 
-            </description>
+</description>
         </match>
         <match>
+            <id>2</id>
             <date>11. 9. 2016</date>
             <homeTeam>HC Dynamo Pardubice</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -236,9 +238,10 @@
             <awayTeamShots>29</awayTeamShots>
             <spectators>7707</spectators>
             <description>Ke druhému zápasu musela Sparta zajíždět do města perníku a zároveň chtěla odčinit páteční zaváhání na vítkovickém ledě. První třetina tomu hned napovídala, když pražský tým poslal do vedení útočník Miroslav Forman. Vzápětí ale Východočeši srovnali krok v přesilové hře zásluhou Nahodila. Na další branky jsme museli čekat až do závěrečného dějství, ve kterém hosté navýšili gólový stav zápasu na 3:1. Ovšem domácí borci nezůstali pozadu, jelikož svou střelou snížil Ovčačík. Sparťané si už poté utkání pohlídali a z horkého ledu Pardubic vezou cenné tři body.
-            </description>
+</description>
         </match>
         <match>
+            <id>3</id>
             <date>13. 9. 2016</date>
             <homeTeam>Bílí Tygři Liberec</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -325,9 +328,10 @@
             <awayTeamShots>22</awayTeamShots>
             <spectators>5079</spectators>
             <description>Tři venkovní zápasy, sedm bodů. Taková je bilance Sparty po třech úvodních kolech nové sezony Tipsport extraligy. Pražané zvládli po vítězství v Pardubicích také duel na ledě Liberce, když v repríze finále vyhráli díky brankám Michala Čajkovského, Petra Kumstáta a Lukáše Klimka těsně 3:2. Svěřenci Zdeňka Motáka a Jiřího Vebera tak mohou být s úvodem sezony spokojení a užívat si krátký čas odpočinku. Už v pátek čeká sparťany domácí extraligová premiéra, ve které přivítají Oceláře z Třince.
-            </description>
+</description>
         </match>
         <match>
+            <id>4</id>
             <date>16. 9. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Oceláři Třinec</awayTeam>
@@ -422,9 +426,10 @@
             <awayTeamShots>35</awayTeamShots>
             <spectators>5206</spectators>
             <description>Sparta se v nové extraligové sezoně poprvé představila na domácím ledě, když v rámci čtvrtého kola hostila třinecké Oceláře. Pražané získali ze tří odehraných duelů na hřištích soupeřů cenných sedm bodů. Třinec ovšem přijel do Prahy s vysokým sebevědomím, neboť zvítězil ve všech střetnutích po šedesáti minutách. Utkání, které nabídlo mnoho dramatických momentů a dlouho vyrovnaný boj, nakonec ovládli hosté z Třince, když bonusový bod urvali v samostatných nájezdech.
-            </description>
+</description>
         </match>
         <match>
+            <id>5</id>
             <date>18. 9. 2016</date>
             <homeTeam>HC Olomouc</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -506,9 +511,10 @@
             <awayTeamShots>0</awayTeamShots>
             <spectators>5112</spectators>
             <description>Sparťané vyjeli v rámci pátého kola Tipsport extraligy do Olomouce, odkud se ale vrací bez bodu. Svěřenci Zdeňka Motáka a Jiřího Vebera jsou tedy poprvé v extraligové sezoně bez bodového zisku. Na první olomoucký gól ještě dokázal zareagovat v první třetině Kudrna. Domácí ale přidali ještě dva góly, zatímco za Pražany se prosadil pouze Petr Vrána a Sparta tedy v Olomouci prohrála 2:3.
-            </description>
+</description>
         </match>
         <match>
+            <id>6</id>
             <date>23. 9. 2016</date>
             <homeTeam>Piráti Chomutov</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -600,9 +606,10 @@
             <awayTeamShots>22</awayTeamShots>
             <spectators>5072</spectators>
             <description>Sparta bez svého trenéra Jiřího Kalouse, který se vrací ze Světového poháru v Kanadě, bodovala i v pátém z dosavadních šesti zápasů. V Chomutově ovšem vybojovala pouze bod, když prohrála 3:4 po prodloužení. Po divokém úvodu, kdy padlo během úvodních třinácti minut pět branek, dokázal vyrovnat Lukáš Pech a utkání dospělo do prodloužení, v němž rozhodl domácí Marek Tomica. Severočeši tak prodloužili svou rekordní vítěznou sérii na šest zápasů, naopak sparťané padli potřetí v řadě.
-            </description>
+</description>
         </match>
         <match>
+            <id>7</id>
             <date>27. 9. 2016</date>
             <homeTeam>Mountfield Hradec Králové</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -688,9 +695,10 @@
             <awayTeamShots>20</awayTeamShots>
             <spectators>5453</spectators>
             <description>Již s Jiřím Kalousem na střídačce vyjeli sparťané do Hradce Králové k sedmému kolu Tipsport extraligy. Po sérii tří porážek v řadě se jim tentokrát podařilo vybojovat tři body. Vedení o tři branky sice soupeř dokázal zkrátit na rozdíl jediného gólu, více se ale Hradeckým nepodařilo a Sparta slaví již třetí výhru v sezoně. Tentokrát díky dvěma gólům Briana Ihnačáka a Jiří Černocha zvítězila 3:2.
-            </description>
+</description>
         </match>
         <match>
+            <id>8</id>
             <date>30. 9. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>PSG Zlín</awayTeam>
@@ -777,9 +785,10 @@
             <awayTeamShots>20</awayTeamShots>
             <spectators>5304</spectators>
             <description>Podruhé v sezóně se ukázali sparťané na domácím ledě v pražské O2 areně a vlastním fanouškům udělali radost. V zápase proti Zlínu vstřelili svěřenci Jiřího Kalouse pět gólů a slaví výhru 5:1. Dvěma góly se na vítězství podílel Miroslav Forman.
-            </description>
+</description>
         </match>
         <match>
+            <id>9</id>
             <date>2. 10. 2016</date>
             <homeTeam>HC Kometa Brno</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -882,9 +891,10 @@
             <awayTeamShots>28</awayTeamShots>
             <spectators>7700</spectators>
             <description>Zajímavý souboj čekal na pražskou Spartu v rámci devátého kola Tipsport extraligy, když se utkala s brněnskou Kometou, které patřilo druhé místo. Před vyprodanou DRFG arenou se hrál svižný hokej plný tvrdých soubojů. Sparťané, kteří nastoupili bez zraněného Tomáše Netíka, prohrávali v úvodu druhé třetiny 0:3. Pech s Černochem sice snížili na 2:3, další góly ale Pražané nepřidali a po dalších třech inkasovaných brankách odjíždí z Brna bez bodu. 
-            </description>
+</description>
         </match>
         <match>
+            <id>10</id>
             <date>7. 10. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>BK Mladá Boleslav</awayTeam>
@@ -986,9 +996,10 @@
             <awayTeamShots>19</awayTeamShots>
             <spectators>5575</spectators>
             <description>Kdo ze sparťanských fanoušků dorazil v pátek večer do O2 areny, ten nelitoval. Svěřenci trenéra Kalouse totiž v duelu s Mladou Boleslaví deklasovali soupeře rozdílem devíti branek a vůbec poprvé v extraligové sezoně neinkasovali. Středočechy načal osm vteřin před koncem první třetiny Pech, dalších osm zásahů pak sparťané rozložili rovnoměrně do zbylých dvou částí. V závěru pak domácí dvakrát skórovali v oslabení.
-            </description>
+</description>
         </match>
         <match>
+            <id>11</id>
             <date>9. 10. 2016</date>
             <homeTeam>HC VERVA Litvínov</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1079,9 +1090,10 @@
             <awayTeamShots>33</awayTeamShots>
             <spectators>5840</spectators>
             <description>Po vysokém domácím vítězství vyjeli hokejisté Sparty k zápasu 11. kola Tipsport extraligy do Litvínova. Svěřenci Jiřího Kalouse sice dokázali po prvním inkasovaném gólu skóre ještě srovnat díky trefě Kumstáta, v první třetině však dostali ještě tři branky během dvou minut a na to již zareagovat nedokázali. Ve druhé třetině inkasovali ještě jednou a z Litvínova se vracejí s porážkou 1:5.
-            </description>
+</description>
         </match>
         <match>
+            <id>12</id>
             <date>16. 10. 2016</date>
             <homeTeam>HC Škoda Plzeň</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1164,9 +1176,10 @@
             <awayTeamShots>37</awayTeamShots>
             <spectators>4530</spectators>
             <description>Sparťané odehráli zatím nejlepší venkovní zápas v aktuální sezoně! Na ledě Plzně celý zápas naprosto dominovali a indiánům nasázeli hned pět branek. Tomáš Pöpperle ve sparťanské brance zůstal naopak nepřekonán.
-            </description>
+</description>
         </match>
         <match>
+            <id>13</id>
             <date>18. 10. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Energie Karlovy Vary</awayTeam>
@@ -1243,9 +1256,10 @@
             <awayTeamShots>26</awayTeamShots>
             <spectators>6416</spectators>
             <description>V dohrávce 12. kola Tipsport extraligy se na ledu O2 areny představila karlovarská Energie. Zápas, který byl věnován středním školám, byl zahájen narozeninovým blahopřáním panu Jiřímu Kochtovi k sedmdesátým narozeninám. V duelu do té doby šestého a čtrnáctého týmu tabulky zvítězili Pražané 3:1 díky gólům Kumstáta, Pecha a Uhera, a také zásluhou skvěle chytajícího brankáře Filipa Novotného. 
-            </description>
+</description>
         </match>
         <match>
+            <id>14</id>
             <date>21. 10. 2016</date>
             <homeTeam>HC VÍTKOVICE RIDERA</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1324,9 +1338,10 @@
             <awayTeamShots>39</awayTeamShots>
             <spectators>5467</spectators>
             <description>Druhou čtvrtinu základní části načali sparťané stejně jako tu první, tedy na ledě Vítkovic. Na úvodní gól Kloka dokázal těsně před první přestávkou zareagovat Štefan Ružička, ale na druhý zásah Ostravanů už sparťané nedokázali najít odpověď. A to přesto, že ve třetí třetině dobývali branku Patrika Bartošáka opravdu důkladně. Při závěrečné hře bez gólmana Vítkovice trefily prázdnou branku a pojistily si tři body.
-            </description>
+</description>
         </match>
         <match>
+            <id>15</id>
             <date>23. 10. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Dynamo Pardubice</awayTeam>
@@ -1410,9 +1425,10 @@
             <awayTeamShots>26</awayTeamShots>
             <spectators>7983</spectators>
             <description>Nedělní zápas 15. kola TELH Sparty proti Pardubicím byl věnován dětem a téměř osmitisícová návštěva v O2 areně mohla být spokojena. Vedení se ujali v první třetině domácí trefou Čajkovského, ve druhém dějství pak sice hosté srovnali, jenže dvěma rychlými trefami Kaliny a Kumstáta sparťané odskočili na dva góly. Do prázdné brány konečné tříbodové vítězství Sparty 4:1 pečetil ještě Pech.
-            </description>
+</description>
         </match>
         <match>
+            <id>16</id>
             <date>25. 10. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>Bílí Tygři Liberec</awayTeam>
@@ -1497,9 +1513,10 @@
             <awayTeamShots>31</awayTeamShots>
             <spectators>7244</spectators>
             <description>Po výhře na ledě Liberce tentokrát druhou reprízu jarního finálového souboje ovládli Bílí Tygři. Do vedení je poslal v první třetině Šimek, další trefy přidali Stránský s Bartovičem. V 56. minutě vykřesal naději a snížení na 1:3 v přesilové hře Petr Vrána, ale Severočeši bleskově odpověděli a tříbrankový náskok už si v klidu pohlídali.
-            </description>
+</description>
         </match>
         <match>
+            <id>17</id>
             <date>30. 10. 2016</date>
             <homeTeam>HC Oceláři Třinec</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1585,9 +1602,10 @@
             <awayTeamShots>38</awayTeamShots>
             <spectators>4922</spectators>
             <description>I podruhé v sezoně sparťané s třineckými Oceláři těsně prohráli. Doma brali bod za porážku po nájezdech, z ledu Třince si po výsledku 2:3 neodvezli ani bod. Skóre otevřel v první třetině obránce Michal Čajkovský, druhá třetina ale patřila jasně domácím. Ti otočili na 3:1 a na snížení Lukáše Pecha už nikdo nenavázal.
-            </description>
+</description>
         </match>
         <match>
+            <id>18</id>
             <date>11. 11. 2016</date>
             <homeTeam>Piráti Chomutov</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1706,9 +1724,10 @@
             <awayTeamShots>30</awayTeamShots>
             <spectators>4829</spectators>
             <description>Stejně jako v září, i tentokrát nabídl zápas na ledě Chomutova pořádnou přestřelku. V první třetině padlo dokonce sedm gólů! Piráti dokázali postupně odpovědět na góly Čajkovského, Vrány i Kudrny a těsně před první přestávkou se poprvé v zápase dostali do vedení. To nevydrželo dlouho díky druhé Vránově trefě. Ve třetí třetině Chomutov znovu odskočil, ale Pechův gól v power play zařídil prodloužení. V tom se i tentokrát z druhého bodu radovali Severočeši.
-            </description>
+</description>
         </match>
         <match>
+            <id>19</id>
             <date>13. 11. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>Mountfield Hradec Králové</awayTeam>
@@ -1794,9 +1813,10 @@
             <awayTeamShots>19</awayTeamShots>
             <spectators>8713</spectators>
             <description>Sparťané chtěli v nedělním utkání ukončit třízápasovou sérii bez výhry, před 8713 diváky v pražské O2 areně ale s hradeckým Mountfieldem těsně prohráli. O utkání rozhodla první třetina, kdy se Hradečtí radovali ze tří gólů, zatímco Pražané skórovali jen jednou. Zbylé dvě třetiny byli svěřenci Jiřího Kalouse aktivnější a soupeře jasně přestříleli, prosadil se ale jen Martin Procházka. Sparťané jsou tedy po porážce 2:3 bez bodů.
-            </description>
+</description>
         </match>
         <match>
+            <id>20</id>
             <date>15. 11. 2016</date>
             <homeTeam>PSG Zlín</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1874,9 +1894,10 @@
             <awayTeamShots>26</awayTeamShots>
             <spectators>4134</spectators>
             <description>Sparťané dokázali v rámci 21. kola Tipsport extraligy ukončit sérii proher a na ledě Zlína slavili vítězství 4:0. Velký podíl na výhře měl teprve sedmnáctiletý gólman Jakub Škarek, který při sparťanské premiéře v nejvyšší soutěži nepustil jediný gól. Naopak sparťané se prosadili hned čtyřikrát, v první třetině skórovali Cingel s Kudrnou, na které navázali ještě ve druhé části Pech a dvě minuty před koncem Hlinka. Pražané si tedy zaslouženě vybojovali tři body. 
-            </description>
+</description>
         </match>
         <match>
+            <id>21</id>
             <date>20. 11. 2016</date>
             <homeTeam>BK Mladá Boleslav</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -1971,9 +1992,10 @@
             <awayTeamShots>36</awayTeamShots>
             <spectators>4009</spectators>
             <description>Na Bruslařský klub se sparťanům zkrátka daří! Připsali si již pátou tříbodovou výhru nad tímto soupeřem a po říjnové domácí kanonádě, která skončila výsledkem 9:0, přivezli vítězství také z města automobilů. Skóre otevřel v první třetině svým prvním extraligovým gólem Ostap Safin, ve druhém dějství se v přesilovkách prosadili Lukáš Pech s Jaroslavem Hlinkou a ve vlastním oslabení také Petr Vrána. Mladá Boleslav ve třetí dvacetiminutovce sice mocně dotahovala, ale nakonec pouze zkorigovala stav na konečných 4:3 pro Spartu.
-            </description>
+</description>
         </match>
         <match>
+            <id>22</id>
             <date>25. 11. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC VERVA Litvínov</awayTeam>
@@ -2045,9 +2067,10 @@
             <awayTeamShots>23</awayTeamShots>
             <spectators>9328</spectators>
             <description>Po dvou tříbodových vítězstvích ve Zlíně a Mladé Boleslavi si sparťané připsali další výhru, tentokrát na domácí půdě v O2 areně. Na první trefu se více než devět tisíc diváků sice načekalo, ale nakonec padla do té správné branky. V závěru druhé třetiny poslal totiž Spartu do vedení kapitán Jaroslav Hlinka, který se gólově prosadil ve třetím utkání v řadě. Ve třetí třetině přidali další zásahy Petr Kumstát a Michal Čajkovský, gólman Tomáš Pöpperle udržel proti Severočechům čisté konto.
-            </description>
+</description>
         </match>
         <match>
+            <id>23</id>
             <date>27. 11. 2016</date>
             <homeTeam>HC Energie Karlovy Vary</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -2141,9 +2164,10 @@
             <awayTeamShots>17</awayTeamShots>
             <spectators>2842</spectators>
             <description>Tři vítězství v řadě měli za sebou sparťané před nedělním zápasem v Karlových Varech a vstup do utkání svěřencům Jiřího Kalouse vyšel skvěle. Už ve 3. minutě otevřel skóre Černoch. Ještě veseleji bylo po brance Pecha v závěru první třetiny. Energie ale dokázala srovnat a v 54. minutě se dokonce Karlovarští dostali do vedení. Po dvaatřiceti vteřinách ale srovnal Kumstát a utkání poslal do prodloužení. V něm se ani jeden tým neprosadil a bod navíc pro svůj tým zařídil proměněným nájezdem Pech.
-            </description>
+</description>
         </match>
         <match>
+            <id>24</id>
             <date>29. 11. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Kometa Brno</awayTeam>
@@ -2226,9 +2250,10 @@
             <awayTeamShots>24</awayTeamShots>
             <spectators>12025</spectators>
             <description>Pět zápasů v řadě nepoznala družina kouče Jiřího Kalouse hořkost porážky! Pátou výhru přidali sparťané doma proti Kometě, které oplatili porážku z prvního vzájemného duelu. Po první třetině vedli zásluhou Andreje Kudrny a Juraje Mikuše 2:0, Brno se ovšem nedalo a ve druhém dějství srovnalo skóre. O výhře a zisku bodů tak rozhodl v 55. minutě až Dominik Uher. 
-            </description>
+</description>
         </match>
         <match>
+            <id>25</id>
             <date>2. 12. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Škoda Plzeň</awayTeam>
@@ -2304,9 +2329,10 @@
             <awayTeamShots>25</awayTeamShots>
             <spectators>7036</spectators>
             <description>Sparťané prodloužili svoji vítěznou sérii už na šest zápasů! Plzeňskou Škodovku porazili i podruhé v aktuální sezoně, tentokrát ovšem těsně o jediný gól. Skóre otevřel v první třetině tečující Lukáš Klimek, druhý zásah přidal ve druhém dějství Petr Vrána. Západočeši už jen zkorigovali gólem Tomáše Svobody na rozdíl jediného gólu.
-            </description>
+</description>
         </match>
         <match>
+            <id>26</id>
             <date>4. 12. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC VÍTKOVICE RIDERA</awayTeam>
@@ -2402,9 +2428,10 @@
             <awayTeamShots>19</awayTeamShots>
             <spectators>5751</spectators>
             <description>Sparta v utkání 27. kola oblékla speciální dresy k výročí 80 let od založení celostátní hokejové soutěže a 113 let od založení klubu. Domácí se jako první prosadili trefou Jaroslava Hlinky již ve 4. minutě, Vítkovičtí však úvodem druhého dějství srovnali. Vedení svému týmu vrátil Andrej Kudrna, nicméně hosté rychle srovnali, ba dokonce šli do vedení 3:2. Závěrem třetí třetiny ale hráči Ridery dvakrát po sobě faulovali a přesilovku proměnil Petr Vrána. Dramatický souboj nakonec dospěl až do nastavení, kde po pár vteřinách vystřelil bonusový bod Vítkovicím Roman.
-            </description>
+</description>
         </match>
         <match>
+            <id>27</id>
             <date>9. 12. 2016</date>
             <homeTeam>HC Dynamo Pardubice</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -2496,9 +2523,10 @@
             <awayTeamShots>30</awayTeamShots>
             <spectators>8455</spectators>
             <description>Další položka v náročném zápasovém programu je úspěšně odškrtnuta! Jen dva dny po remíze na ledě švýcarského Bernu přivezli sparťané tři body z utkání na ledě Pardubic. Do vedení 2:0 Spartu dostali už v první třetině Klimek s Vránou, Pardubičtí zvládli v dalším průběhu pouze korigovat na 1:3. Sparťané ale žádné drama nepřipustili a dalšími dvěma góly rozhodli o svém jednoznačném vítězství. Při své premiéře v Tipsport extralize si připsal gól útočník juniorky Jan Kern.
-            </description>
+</description>
         </match>
         <match>
+            <id>28</id>
             <date>11. 12. 2016</date>
             <homeTeam>Bílí Tygři Liberec</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -2578,9 +2606,10 @@
             <awayTeamShots>24</awayTeamShots>
             <spectators>7309</spectators>
             <description>Devětadvacáté kolo Tipsport extraligy odehráli sparťané v Liberci. Bílí Tygři šli před téměř vyprodaným stadionem v deváté minutě do vedení, pak už se ale činili pouze Pražané. Ještě do první přestávky vyrovnal kapitán Hlinka a ve druhé třetině vstřelil rozhodující gól Cingel. Pět minut před koncem přidal navíc ještě pojistku Černoch a svěřenci Jiřího Kalouse slaví zaslouženou výhru 3:1. 
-            </description>
+</description>
         </match>
         <match>
+            <id>29</id>
             <date>20. 12. 2016</date>
             <homeTeam>HC Oceláři Třinec</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -2658,9 +2687,10 @@
             <awayTeamShots>30</awayTeamShots>
             <spectators>5064</spectators>
             <description>V rámci 30. kola Tipsport extraligy sparťané zavítali na led třineckých Ocelářů. Přestože po brzkém gólu domácích v první třetině Pražané ve druhém dějství dokázali srovnat z hole Lukáše Pecha, v závěrečné dvacetiminutovce inkasovali v oslabení a gólmana Hrubce znovu nepřekonali. Sparta tak po těsném výsledku odjíždí z východu republiky bez bodu.
-            </description>
+</description>
         </match>
         <match>
+            <id>30</id>
             <date>22. 12. 2016</date>
             <homeTeam>HC Olomouc</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -2751,9 +2781,10 @@
             <awayTeamShots>23</awayTeamShots>
             <spectators>4556</spectators>
             <description>V posledním utkání před Vánoci nadělili sparťanští hráči sobě i svým fanouškům tři body do tabulky. Na olomouckém ledě k jejich zisku nakročili už v první třetině díky trefě Miroslava Formana a soupeře definitivně překonali v dějství druhém. Olomouci totiž nasázeli další čtyři branky během jedenácti minut! Domácí už jen snížili na konečných 5:1 pro Spartu.
-            </description>
+</description>
         </match>
         <match>
+            <id>31</id>
             <date>26. 12. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>Piráti Chomutov</awayTeam>
@@ -2839,9 +2870,10 @@
             <awayTeamShots>24</awayTeamShots>
             <spectators>8231</spectators>
             <description>Sparťané na druhý svátek vánoční hostili chomutovské Piráty a do zápasu vstoupili dobře, do vedení je totiž poslal Brian Ihnačák. Severočeši dokázali rychle vyrovnat, ale ještě před koncem první třetiny šla Sparta díky přesilovkovému gólu Petra Vrány znovu do vedení. Další branky už ale nepřidala, Piráti naopak dvěma góly v prostředním dějství otočili vývoj zápasu a vyhráli nejtěsnějším možným rozdílem.
-            </description>
+</description>
         </match>
         <match>
+            <id>32</id>
             <date>30. 12. 2016</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>PSG Zlín</awayTeam>
@@ -2916,9 +2948,10 @@
             <awayTeamShots>14</awayTeamShots>
             <spectators>8343</spectators>
             <description>Poslední utkání v roce 2016 se sparťanům nepodařilo. V domácí prostředí pražské O2 areny Zlín sice jasně přestříleli v poměru 36:14, na gólmana Libora Kašíka ale nevyzráli ani jednou. Naopak sami inkasovali hned třikrát a před 8 343 diváky prohráli 0:3.
-            </description>
+</description>
         </match>
         <match>
+            <id>33</id>
             <date>3. 1. 2017</date>
             <homeTeam>HC Kometa Brno</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -3010,9 +3043,10 @@
             <awayTeamShots>33</awayTeamShots>
             <spectators>7700</spectators>
             <description>Sparta se stala teprve druhým týmem, který si v aktuální sezoně odvezl z ledu Komety Brno plný počet bodů! Základ k tříbodovému zisku položili už během prvních šesti minut Michal Řepík s Brianem Ihnačákem, na brněnské snížení odpověděli ve druhé třetině Tomáš Netík s Lukášem Cingelem. Definitivní gólovou tečku za zápasem a potvrzení výhry přidal v závěru povedeného zápasu Dominik Uher.
-            </description>
+</description>
         </match>
         <match>
+            <id>34</id>
             <date>6. 1. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>BK Mladá Boleslav</awayTeam>
@@ -3093,9 +3127,10 @@
             <awayTeamShots>24</awayTeamShots>
             <spectators>6238</spectators>
             <description>I potřetí v probíhající sezoně sparťané porazili BK Mladá Boleslav s tříbodovým ziskem! Skóre tentokrát otevřel v první třetině po samostatném úniku Andrej Kudrna, ve druhém dějství se prosadili také Petr Vrána a Brian Ihnačák. Vítězství poté definitivně potvrdil čtvrtou brankou obránce Jan Piskáček. Gólman Tomáš Pöpperle tak mohl po zápase slavit čisté konto.
-            </description>
+</description>
         </match>
         <match>
+            <id>35</id>
             <date>8. 1. 2017</date>
             <homeTeam>HC VERVA Litvínov</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -3179,9 +3214,10 @@
             <awayTeamShots>39</awayTeamShots>
             <spectators>5782</spectators>
             <description>Litvínovský led je pro sparťany zkrátka zakletý. Ani tentokrát na něm nedokázali vybojovat vítězství, přestože soupeře přestříleli v poměru 39:24. Na první gól Severočechů sice dokázal v závěru první třetiny odpovědět Petr Kumstát, ale Litvínovští se prosadili ještě dvakrát. Pražané sice zásluhou Lukáše Pecha dokázali při hře bez brankáře snížit na rozdíl jediného gólu, ale na víc už jim nezbýval čas.
-            </description>
+</description>
         </match>
         <match>
+            <id>36</id>
             <date>13. 1. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Energie Karlovy Vary</awayTeam>
@@ -3254,9 +3290,10 @@
             <awayTeamShots>19</awayTeamShots>
             <spectators>5122</spectators>
             <description>I druhé domácí utkání v roce 2017 sparťanští hráči zvládli vítězně. Výhra se však nerodila snadno. Svěřenci kouče Kalouse šli sice jako první do vedení, soupeř však na začátku třetí třetiny dokázal vyrovnat a sparťané i přes jasnou střeleckou převahu nedokázali v základní části rozhodnout. O druhý bonusový bod se tak v následném prodloužení postaral povedeným zakončením Lukáš Pech.
-            </description>
+</description>
         </match>
         <match>
+            <id>37</id>
             <date>15. 1. 2017</date>
             <homeTeam>HC Škoda Plzeň</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -3340,9 +3377,10 @@
             <awayTeamShots>35</awayTeamShots>
             <spectators>6079</spectators>
             <description>Počtvrté nasadili trenéři do sparťanské branky Jakuba Škarka a i počtvrté z toho bylo vítězství. Svěřenci Jiřího Kalouse sice v Plzni ztratili dvoubrankové vedení, které zařídili Petr Vrána a Lukáš Pech, a utkání dospělo do prodloužení. V něm ale rozhodl o bodu navíc kapitán Jaroslav Hlinka pouhé tři vteřiny před koncem nastaveného času a zařídil třetí vítězství nad Západočechy v této sezoně.
-            </description>
+</description>
         </match>
         <match>
+            <id>38</id>
             <date>22. 1. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Dynamo Pardubice</awayTeam>
@@ -3429,9 +3467,10 @@
             <awayTeamShots>34</awayTeamShots>
             <spectators>7516</spectators>
             <description>Šňůra tříbodových vítězství nad Pardubicemi čítá už devět zápasů v řadě, i když na to zatím poslední se sparťané pořádně nadřeli. V polovině zápasu to přitom na žádné velké drama nevypadalo, sparťané vedli po úvodním gólu Jaroslava Hlinky a dvou povedených tečích Lukáše Cingela už 3:0. Pardubičtí ale nesložili zbraně a snížili ve dvojnásobné přesilovce. Druhý gól přidali ve hře čtyři na čtyři, nic dalšího už ale nestihli.
-            </description>
+</description>
         </match>
         <match>
+            <id>39</id>
             <date>24. 1. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC VÍTKOVICE RIDERA</awayTeam>
@@ -3501,9 +3540,10 @@
             <awayTeamShots>18</awayTeamShots>
             <spectators>4011</spectators>
             <description>Prokletí Vítkovic se projevilo i ve čtvrtém vzájemném utkání v aktuální sezoně. Sparťané totiž nedokázali ostravského soupeře ani na čtvrtý pokus porazit, přestože ho v úvodu zápasu mocně drtili a Bartošák neměl ani vteřinu na oddech. V závěru první části se hosté dokázali prosadit po vůbec první střele na branku v zápase a hubený jednogólový náskok hájili po dalších 40 minut. Sparťané sice soupeře vysoko přestříleli 44 ku 18, ale nepodařilo se jim ani jedinkrát překonat zeď jménem Bartošák. Vítkovice naopak zisk tří bodů pojistily v závěru zápasu při přesilovce pět na tři.
-            </description>
+</description>
         </match>
         <match>
+            <id>40</id>
             <date>27. 1. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>Bílí Tygři Liberec</awayTeam>
@@ -3596,9 +3636,10 @@
             <awayTeamShots>39</awayTeamShots>
             <spectators>8566</spectators>
             <description>Jedno se dá říct o vzájemných zápasech s Libercem zcela jistě, rozhodně nenudí. Sparťané šli tentokrát do vedení zásluhou Michala Řepíka, na 2:0 zvyšoval při své premiéře Kanaďan André Deveaux. Bílí Tygři se ale nedali a dokázali otočit stav třemi góly v přesných desetiminutových intervalech. Poté ale prokázali silnou vůli i Pražané, když Petr Kumstát zajistil dramatické prodloužení. V tom sparťané ubránili oslabení a nakonec se radovali z vítězství po samostatných nájezdech, ve kterých uspěl pouze Petr Vrána.
-            </description>
+</description>
         </match>
         <match>
+            <id>41</id>
             <date>29. 1. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Oceláři Třinec</awayTeam>
@@ -3735,9 +3776,10 @@
             <awayTeamShots>23</awayTeamShots>
             <spectators>14020</spectators>
             <description>Takový zápas sparťané dlouho nezažili a v paměti jim dozajista zůstane navždy. Přestože do něj nevstoupili šťastně a už v první minutě inkasovali, dokázali svého soupeře z Třince v dalším průběhu totálně rozebrat a nakonec mu nastříleli neuvěřitelných 12 branek! Kapitán Jaroslav Hlinka přispěl k destrukci Ocelářů hattrickem. První zápas věnovaný akci Sparta vzdává hold 2017 před zaplněnou arenou a ve speciálních dresech se tak vydařil na výbornou.
-            </description>
+</description>
         </match>
         <match>
+            <id>42</id>
             <date>31. 1. 2017</date>
             <homeTeam>Mountfield Hradec Králové</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -3811,9 +3853,10 @@
             <awayTeamShots>28</awayTeamShots>
             <spectators>5367</spectators>
             <description>Po vysoké výhře nad Třincem vyjeli sparťané k dohrávce 33. kola Tipsport extraligy na led hradeckého Mountfieldu. Do branky se tentokrát postavil Filip Novotný, který předvedl parádní výkon a ze čtyřiatřiceti pokusů soupeře pustil pouze jediný. Naopak svěřenci Jiřího Kalouse skórovali po gólech Gernáta a Ihnačáka hned dvakrát a do Prahy vezou tři body za vítězství 2:1. V extralize si tím upevnili třetí pozici, na čtvrtý Hradec mají náskok čtyř bodů a zápas k dobru.
-            </description>
+</description>
         </match>
         <match>
+            <id>43</id>
             <date>3. 2. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Olomouc</awayTeam>
@@ -3904,9 +3947,10 @@
             <awayTeamShots>25</awayTeamShots>
             <spectators>14370</spectators>
             <description>Druhý zápas věnovaný letošnímu ročníku akce Sparta vzdává hold sparťanům nevyšel podle představ. Šli sice jako první do vedení zásluhou Michala Řepíka, ale Hanáci otočili skóre na 3:1. Petr Vrána dal Pražanům naději gólem na 2:3, ale víc už toho sparťané nestihli a Olomouc naopak potvrdila zisk tří bodů čtvrtou trefou.
-            </description>
+</description>
         </match>
         <match>
+            <id>44</id>
             <date>5. 2. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>Piráti Chomutov</awayTeam>
@@ -3988,9 +4032,10 @@
             <awayTeamShots>33</awayTeamShots>
             <spectators>6370</spectators>
             <description>I čtvrtý vzájemný souboj s chomutovskými Piráty v aktuální sezoně byl velice vyrovnaný. Sparťané po dvou třetinách vedli 2:0 zásluhou Petra Vrány a Briana Ihnačáka, Severočeši dokázali ve třetí části srovnat a vynutit si ve třetím ze čtyř utkání proti Spartě prodloužení. V tom sparťané jednoznačně dominovali a nakonec rozhodli 20 vteřin před jeho koncem. Z trestného střílení se prosadil Lukáš Pech.
-            </description>
+</description>
         </match>
         <match>
+            <id>45</id>
             <date>15. 2. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>Mountfield Hradec Králové</awayTeam>
@@ -4085,9 +4130,10 @@
             <awayTeamShots>30</awayTeamShots>
             <spectators>7990</spectators>
             <description>Sparta po reprezentační pauze hostila královéhradecký Mountfield. I přes úvodní vedení hostů dokázali sparťané trefami Petra Vrány a Lukáše Klimka otočit skóre na 2:1 ještě v první třetině. Gólem do šatny však Hradec ve druhém dějství vyrovnal, ve třetí dvacetiminutovce rozhodl o svém tříbodovém vítězství dalšími dvěma slepenými trefami a pak vše potvrdil gólem do prázdné brány. Hradec si tak odváží tři body a i čtvrtý vzájemný duel vyzněl vítězně pro hostující celek.
-            </description>
+</description>
         </match>
         <match>
+            <id>46</id>
             <date>17. 2. 2017</date>
             <homeTeam>PSG Zlín</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -4173,9 +4219,10 @@
             <awayTeamShots>32</awayTeamShots>
             <spectators>5204</spectators>
             <description>Konečné účtování se Zlínem v základní části přineslo Spartě devět bodů za tři výhry. Tu poslední přidali sparťané na ledě ševců, kde se na úvodní gól čekalo až do 33. minuty. Prosadil se Michal Řepík, v závěru druhé třetiny přidal druhou trefu Jan Buchtele. Ve třetí třetině už si Pražané v poklidu hlídali tři body a přidali ještě další tři góly za záda zlínského gólmana Libora Kašíka.
-            </description>
+</description>
         </match>
         <match>
+            <id>47</id>
             <date>19. 2. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Kometa Brno</awayTeam>
@@ -4257,9 +4304,10 @@
             <awayTeamShots>22</awayTeamShots>
             <spectators>11974</spectators>
             <description>Vzájemná bilance s brněnskou Kometou v základní části se zastavila na třech výhrách a jediné porážce. Už v první třetině položil základy vítězství dvěma góly Lukáš Pech, kterému už chybí jen jediná trefa ke dvacítce vstřelených branek. Ve třetí třetině se prosadili ještě Miroslav Forman a Lukáš Klimek, Kometa neskórovala ani jedinkrát. Sparťané se díky výhře posunuli na průběžné třetí místo tabulky Tipsport extraligy a mají dohrávku s Olomoucí k dobru.
-            </description>
+</description>
         </match>
         <match>
+            <id>48</id>
             <date>21. 2. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Olomouc</awayTeam>
@@ -4338,9 +4386,10 @@
             <awayTeamShots>28</awayTeamShots>
             <spectators>4579</spectators>
             <description>Sparťané se po dohrávce 18. kola Tipsport extraligy proti Olomouci dostali na plný počet odehraných zápasů a díky zisku plného počtu bodů se navíc na třetím místě tabulky odpoutali od Hradce Králové. Do vedení je poslal Petr Kumstát, Hanáci ale těsně před první přestávkou srovnali. Ve druhé třetině Sparta dokázala odskočit po trefách Andreje Kudrny s Janem Švrčkem a dvoubrankový náskok už si pohlídala až do konce.
-            </description>
+</description>
         </match>
         <match>
+            <id>49</id>
             <date>24. 2. 2017</date>
             <homeTeam>BK Mladá Boleslav</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -4429,9 +4478,10 @@
             <awayTeamShots>32</awayTeamShots>
             <spectators>3669</spectators>
             <description>Mladá Boleslav, to je pro Spartu velmi oblíbený soupeř. Platí to i po 49. kole Tipsport extraligy, kdy sparťané zvítězili nad tímto soupeře už posedmé v řadě. V žádném utkání navíc neztratili jediný bod. Další výhra se ale nerodila snadno. Po bezbrankové první dvacetiminutovce se jako první prosadili sparťané, když se trefil Řepík a o dvě minuty později i Buchtele. Boleslav ale dokázala korigovat rychle na rozdíl jediné branky a zareagovat dokázala i na druhou přesnou trefu Buchteleho. Výhru zpečetil gólem do prázdné branky opět Řepík, sparťané slaví vítězství 4:2 a upevnili si třetí příčku v Tipsport extralize.
-            </description>
+</description>
         </match>
         <match>
+            <id>50</id>
             <date>26. 2. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC VERVA Litvínov</awayTeam>
@@ -4513,9 +4563,10 @@
             <awayTeamShots>21</awayTeamShots>
             <spectators>11074</spectators>
             <description>I podruhé v sezoně dokázali sparťané v domácím prostředí zdolat Litvínov a i podruhé jim k tomu stačily tři branky. Za Pražany se trefovali Martin Gernát, Petr Kumstát, premiérovou domácí trefu po návratu z KHL pak zaznamenal Jan Buchtele. Jubilejní 50. extraligový bod si díky dvěma asistencím připsal nejproduktivnější extraligový hráč Lukáš Pech.
-            </description>
+</description>
         </match>
         <match>
+            <id>51</id>
             <date>28. 2. 2017</date>
             <homeTeam>HC Energie Karlovy Vary</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -4593,9 +4644,10 @@
             <awayTeamShots>38</awayTeamShots>
             <spectators>2717</spectators>
             <description>Na duel předposledního kola základní části by sparťané nejraději rychle zapomněli. Po pěti výhrách v řadě totiž přišla porážka na ledě outsidera z Karlových Varů, po které už Sparta nemá naději na druhé místo tabulky. Energetici si připsali po jednom gólu v první i druhé třetině, na sparťanské snížení z hole Lukáše Pecha v přesilovce pět na tři odpověděl v samém závěru zápasu obránce Václav Benák.
-            </description>
+</description>
         </match>
         <match>
+            <id>52</id>
             <date>3. 3. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Škoda Plzeň</awayTeam>
@@ -4681,9 +4733,10 @@
             <awayTeamShots>23</awayTeamShots>
             <spectators>9854</spectators>
             <description>V posledním kole základní části sparťané hostili Plzeň a proti Západočechům se dostali do vedení 2:1. Nejprve se trefil Andrej Kudrna, poté v přesilovce Jan Buchtele. Škodovka ale dokázala odpovědět a nakonec se radovala z vítězství po samostatných nájezdech. V těch byl jediným úspěšným exekutorem Miroslav Indrák.
-            </description>
+</description>
         </match>
         <match>
+            <id>53</id>
             <date>13. 3. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Kometa Brno</awayTeam>
@@ -4773,9 +4826,10 @@
             <spectators>11517</spectators>
             <description>Stav série: 0:1.
 Dlouho to vypadalo, že sparťané vstup do čtvrtfinále proti Kometě Brno úspěšně zvládnou. Po pěti minutách vedli před 11 517 diváky už 2:0. Ve druhé třetině se Moravanům podařilo snížit, ale i tak vedli svěřenci trenéra Kalouse šest minut před koncem o jeden gól. Pak ale během necelých dvou minut dvakrát inkasovali a po výhře 3:2 se vedení v sérii ujímá Kometa. 
-            </description>
+</description>
         </match>
         <match>
+            <id>54</id>
             <date>14. 3. 2017</date>
             <homeTeam>HC Sparta Praha</homeTeam>
             <awayTeam>HC Kometa Brno</awayTeam>
@@ -4862,9 +4916,10 @@ Dlouho to vypadalo, že sparťané vstup do čtvrtfinále proti Kometě Brno ús
             <spectators>13003</spectators>
             <description>Stav série: 0:2.
 Také do druhého čtvrtfinálového utkání vstoupili lépe sparťané, které poslal do vedení Michal Řepík. Kometa dokázala na jeho gól odpovědět, ale ještě před první přestávkou vrátil Spartě jednobrankový náskok Petr Kumstát. Po bezbrankovém druhém dějství Brno v úvodu třetí části srovnalo a v prodloužení se radovalo z vítězství a vedení 2:0 v celé sérii.
-            </description>
+</description>
         </match>
         <match>
+            <id>55</id>
             <date>17. 3. 2017</date>
             <homeTeam>HC Kometa Brno</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -4962,9 +5017,10 @@ Také do druhého čtvrtfinálového utkání vstoupili lépe sparťané, které
             <spectators>7700</spectators>
             <description>Stav série: 0:3.
 I ve třetím utkání, prvním ve čtvrtfinálové sérii hraném na ledě brněnské Komety, šli jako první do vedení sparťané. Nejprve se prosadil Dominik Uher, hned po něm Martin Gernát. Domácí sice snížili, ale po první třetině byl zásluhou Petra Vrány stav 3:1 pro Spartu. Kometa poté ve druhé třetině srovnala a po bezbrankové třetí dvacetiminutovce rozhodla hned na začátku prodloužení o svém vítězství. V sérii tak vede už 3:0 a jediná výhra ji dělí od semifinále.
-            </description>
+</description>
         </match>
         <match>
+            <id>56</id>
             <date>18. 3. 2017</date>
             <homeTeam>HC Kometa Brno</homeTeam>
             <awayTeam>HC Sparta Praha</awayTeam>
@@ -5050,7 +5106,7 @@ I ve třetím utkání, prvním ve čtvrtfinálové sérii hraném na ledě brn�
             <spectators>7700</spectators>
             <description>Konečný stav série:: 4:0.
 Ani napočtvrté to nevyšlo. Poprvé ve čtvrtfinálové sérii sparťané nevstoupili do utkání vstřeleným gólem, naopak po dvou minutách inkasovali z hole Haščáka. Na to sice dokázal ještě zareagovat Pech, od stavu 1:1 se už ale trefovali jen hráči Komety a po výhře 4:1 postupují do semifinále. Pro svěřence Jiřího Kalouse tak po prohře 0:4 na zápasy sezona končí. 
-            </description>
+</description>
         </match>
     </matches>
 </database>
