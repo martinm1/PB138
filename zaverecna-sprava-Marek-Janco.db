@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://docbook.org/xml/4.2/docbookx.dtd">
+<article lang="cs">
+    <title>PB138 projekt</title>
+    <subtitle>Moja práca na projekte</subtitle>
+    <author>
+        <personname>Marek Jančo</personname>
+    </author>
+    <sect1>
+        <title>Začiatok práce na projekte</title>
+        <para>
+            Spolu s ostatnými členmi tímu sme vytvorili projekt využívajúci spring-boot a navrhli ako bude obsah xml databáze vyzerať.
+        </para>
+    </sect1>
+    <sect1>
+        <title>Validácia databáze</title>
+        <para>
+            Databáza bola vytvorená pomocou scriptu a upravovaná aj z časti ručne, preto sme potrebovali skontrolovať, či je konzistentná a či sú dáta v správnom tvare. Mojou prácou bolo vytvoriť xml schema, ktorá tieto požiadavky skontroluje. Do projektu som vložil SchemaValidator, pomocou ktorého sa xml databáza zvaliduje vždy pri spúšťaní projektu, vždy pri vytváraní beanov DAO objektov.
+        </para>
+    </sect1>
+    <sect1>
+        <title>Ostatná práca</title>
+        <para>
+            Okrem xml schema, som pomohol aj pri niektorých funkciách v DAO objektoch a tiež som implementoval časť funkcionality na frontende ,ako napr.: hľadanie všetkých zápasov proti vybranému tímu, ale aj niektoré technické detaily týkajúce sa frontendu.
+        </para>
+    </sect1>
+</article>
