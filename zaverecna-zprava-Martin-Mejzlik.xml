@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://docbook.org/xml/4.2/docbookx.dtd">
+<article lang="cs">
+  <title>Projekt z PB138</title>
+  <subtitle>Databáze a stahování dat</subtitle>
+	<author>
+		<personname>Martin Mejzlík</personname>
+	</author>
+  <sect1>
+     <title>Stahování dat</title>
+     <para>
+       Aby mohl program, který je výsledkem práce na tomto projektu, vytvářet požadované statistiky, potřebuje mít uloženy potřebné informace v databázi ve formátu XML. 
+</para>
+</sect1>
+<sect1>
+      <title>Tvorba databáze</title>
+	<para>
+Databáze byla částečně vytvořena ručně a částečně byla vygenerována automaticky z textů, které se nachází na stránkách jednotlivých zápasů dostupných z adresy http://www.hcsparta.cz/zapasy.asp. Automatické generování části se zápasy bylo využito vzhledem k jejich vysokému počtu a náročnosti ruční tvorby jejich záznamů. 
+     </para>
+      <para>
+       Ke tvorbě automaticky generované části databáze slouží program MatchXMLGenerator, který z textů popisujících jednotlivé zápasy generuje soubor ve formátu XML. Zároveň se tento program zabývá detekcí chyb a nepravidelností ve zdrojových textech, ty musí být opraveny ručně. 
+  </para>
+</sect1>
+<sect1>
+<title>Struktura databáze</title>
+<para>
+Výsledná databáze obsahuje seznam týmů a seznam zápasů. Pro každý zápas se ukládají další parametry: jeho datum, zůčastněné týmy, seznamy hráčů obou týmů, počet diváků, počet střel, popis zápasu a seznam gólů obou týmů. 
+</para>
+<para>
+Góly jsou rovněž popsány podrobněji, každý obsahuje jako parametry minutu, kdy padl, střelce, který ho dal a případně hráče, kteří k němu přispěli asistencí.
+</para>
+</sect1>
+</article>
