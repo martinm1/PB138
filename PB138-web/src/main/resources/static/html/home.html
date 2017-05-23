@@ -1,6 +1,15 @@
 <div class="ui button" ng-click="homeController.refreshHome()" tabindex="0">Iba doma</div>
 <div class="ui button" ng-click="homeController.refreshAway()" tabindex="0">Iba vonku</div>
 <div class="ui button" ng-click="homeController.refreshAll()" tabindex="0">Všetko</div>
+<span style="padding: 0 160px">&nbsp;</span>
+<select ng-model="homeController.selectedTeam"
+        ng-change='homeController.selectTeam()'>
+    <option selected disabled value="">-- Vyber klub --</option>
+    <option ng-repeat="team in homeController.listOfTeams">{{team}}</option>
+</select>
+
+<div class="ui button" ng-click="homeController.allAgainstTeam()" tabindex="0">Vyhľadaj zápasy proti klubu</div>
+
 <br>
 Celkový počet divákov za sezónu : {{homeController.totalSpectators}}
 <br>

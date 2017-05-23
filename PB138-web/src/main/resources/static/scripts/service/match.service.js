@@ -8,10 +8,10 @@ angular.module('sparta')
                     return response.data;
                 })
             },
-            getAllMatchesAgainstTeam: function (name) {
+            getAllMatchesAgainstTeam: function (teamName) {
                 return $http.get('/match/getAllMatchesAgainstTeam', {
                     params: {
-                        name: name
+                        name: teamName
                     }
                 }).then(function (response) {
                     return response.data;
