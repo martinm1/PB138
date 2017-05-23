@@ -1,0 +1,48 @@
+<div class="ui piled segments">
+    <div class="ui segment">
+        <table class="ui celled padded table">
+            <tr>
+                <td>
+                    <img src="../logos/{{matchController.match.homeTeam.logoPath}}.png" width="50"/>
+                </td>
+                <td>
+                    <img src="../logos/{{matchController.match.awayTeam.logoPath}}.png" width="50"/>
+                </td>
+                <td class="single line">
+                    {{matchController.match.homeTeam.name}} - {{matchController.match.homeTeam.name}}
+                </td>
+                <td class="right aligned">
+                    {{matchController.match.matchDate.dayOfMonth}}. {{matchController.match.matchDate.monthValue}}. {{matchController.match.matchDate.year}}
+
+                </td>
+                <td>
+                    <h1>{{matchController.match.homeTeamGoals.length}}:{{matchController.match.awayTeamGoals.length}}</h1>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="ui segment">
+        <div class="ui piled segments">
+            <div class="ui segment">
+                <p>{{matchController.match.homeTeam.name}} - {{matchController.match.homePlayerList.join(", ")}}</p>
+            </div>
+            <div class="ui segment">
+                <p>{{matchController.match.awayTeam.name}} - {{matchController.match.awayPlayerList.join(", ")}}</p>
+            </div>
+            <div class="ui segment">
+                <p>Branky a nahrávky:
+                    <span ng-repeat="goal in matchController.match.homeTeamGoals">
+                        {{goal.minute}}. {{goal.scorer}}{{goal.firstAssist ? "(" : ""}}{{goal.firstAssist}}{{goal.secondAssist ? ", " : ""}}{{goal.secondAssist}}{{goal.firstAssist ? ") " : ""}}
+                    </span>
+                    -   <span ng-repeat="goal in matchController.match.awayTeamGoals">
+                        {{goal.minute}}. {{goal.scorer}}{{goal.firstAssist ? "(" : ""}}{{goal.firstAssist}}{{goal.secondAssist ? ", " : ""}}{{goal.secondAssist}}{{goal.firstAssist ? ") " : ""}}
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="ui segment">
+        <p> {{matchController.match.description}}
+        <div class="ui button" ui-sref="home" tabindex="0">Back</div></p>
+    </div>
+</div>

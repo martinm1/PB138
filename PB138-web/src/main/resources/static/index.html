@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.manifest">
+<head>
+    <title>HC Sparta</title>
+
+    <meta charset="UTF-8">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content="PB138">
+
+    <link rel="stylesheet" type="text/css" href="bower_components/semantic/dist/semantic.min.css"/>
+</head>
+<body ng-app="sparta">
+
+<!-- Bower components -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/semantic/dist/semantic.min.js"></script>
+
+<!-- App configuration -->
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/app.state.js"></script>
+
+<!-- Servicies -->
+<script type="text/javascript" src="scripts/service/match.service.js"></script>
+<script type="text/javascript" src="scripts/service/team.service.js"></script>
+
+<!-- Controllers -->
+<script type="text/javascript" src="scripts/controller/home.controller.js"></script>
+<script type="text/javascript" src="scripts/controller/match.controller.js"></script>
+
+
+<div class="ui fixed inverted menu">
+    <div class="ui container">
+
+        <h2 style="color:#FFFFF0">HC Sparta</h2>
+    </div>
+</div>
+<br><br><br><!-- TODO this should not be here-->
+<div ui-view="main" class="ui container content"></div>
+</body>
+</html>

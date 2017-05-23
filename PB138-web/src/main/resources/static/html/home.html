@@ -1,0 +1,45 @@
+<div class="ui button" ng-click="homeController.refreshHome()" tabindex="0">Iba doma</div>
+<div class="ui button" ng-click="homeController.refreshAway()" tabindex="0">Iba vonku</div>
+<div class="ui button" ng-click="homeController.refreshAll()" tabindex="0">Všetko</div>
+<span style="padding: 0 160px">&nbsp;</span>
+<select ng-model="homeController.selectedTeam"
+        ng-change='homeController.selectTeam()'>
+    <option selected disabled value="">-- Vyber klub --</option>
+    <option ng-repeat="team in homeController.listOfTeams">{{team}}</option>
+</select>
+
+<div class="ui button" ng-click="homeController.allAgainstTeam()" tabindex="0">Vyhľadaj zápasy proti klubu</div>
+
+<br>
+Celkový počet divákov za sezónu : {{homeController.totalSpectators}}
+<br>
+Celkový počet striel za sezónu : {{homeController.totalShots}}
+<br>
+<table class="ui celled padded table">
+    <thead>
+    <tr><th class="single line">Domáci</th>
+        <th>Venku</th>
+        <th>Zápas</th>
+        <th>Info</th>
+        <th>Skóre</th>
+    </tr></thead>
+    <tbody>
+    <tr ng-repeat="match in homeController.matches">
+        <td>
+            <img src="../logos/{{match.homeTeam.logoPath}}.png" width="50"/>
+        </td>
+        <td>
+            <img src="../logos/{{match.awayTeam.logoPath}}.png" width="50"/>
+        </td>
+        <td class="single line">
+            {{match.homeTeam.name}} - {{match.awayTeam.name}}
+        </td>
+        <td class="right aligned">
+            {{match.matchDate.dayOfMonth}}. {{match.matchDate.monthValue}}. {{match.matchDate.year}}
+        </td>
+        <td>
+            <h1><a ui-sref="match({matchId : match.id})">{{match.homeTeamGoals.length}}:{{match.awayTeamGoals.length}}</a></h1>
+        </td>
+    </tr>
+    </tbody>
+</table>

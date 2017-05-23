@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>Projekt z PB138</title><meta name="generator" content="DocBook XSL Stylesheets V1.79.1"/></head><body><div xml:lang="cs" class="article"><div class="titlepage"><div><div><h2 class="title"><a id="idm46066961908464"/>Projekt z PB138</h2></div><div><h3 class="subtitle"><em>Databáze a stahování dat</em></h3></div></div><hr/></div><div class="toc"><p><strong>Obsah</strong></p><dl class="toc"><dt><span class="sect1"><a href="#idm46066961903264">Stahování dat</a></span></dt><dt><span class="sect1"><a href="#idm46066961901600">Tvorba databáze</a></span></dt><dt><span class="sect1"><a href="#idm46066961899200">Struktura databáze</a></span></dt></dl></div><span class="author">Martin Mejzlík</span><div class="sect1"><div class="titlepage"><div><div><h2 class="title"><a id="idm46066961903264"/>Stahování dat</h2></div></div></div><p>
+       Aby mohl program, který je výsledkem práce na tomto projektu, vytvářet požadované statistiky, potřebuje mít uloženy potřebné informace v databázi ve formátu XML. 
+</p></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title"><a id="idm46066961901600"/>Tvorba databáze</h2></div></div></div><p>
+Databáze byla částečně vytvořena ručně a částečně byla vygenerována automaticky z textů, které se nachází na stránkách jednotlivých zápasů dostupných z adresy http://www.hcsparta.cz/zapasy.asp. Automatické generování části se zápasy bylo využito vzhledem k jejich vysokému počtu a náročnosti ruční tvorby jejich záznamů. 
+     </p><p>
+       Ke tvorbě automaticky generované části databáze slouží program MatchXMLGenerator, který z textů popisujících jednotlivé zápasy generuje soubor ve formátu XML. Zároveň se tento program zabývá detekcí chyb a nepravidelností ve zdrojových textech, ty musí být opraveny ručně. 
+  </p></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title"><a id="idm46066961899200"/>Struktura databáze</h2></div></div></div><p>
+Výsledná databáze obsahuje seznam týmů a seznam zápasů. Pro každý zápas se ukládají další parametry: jeho datum, zůčastněné týmy, seznamy hráčů obou týmů, počet diváků, počet střel, popis zápasu a seznam gólů obou týmů. 
+</p><p>
+Góly jsou rovněž popsány podrobněji, každý obsahuje jako parametry minutu, kdy padl, střelce, který ho dal a případně hráče, kteří k němu přispěli asistencí.
+</p></div></div></body></html>
