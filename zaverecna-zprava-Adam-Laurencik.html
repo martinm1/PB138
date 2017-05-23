@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Projekt z PB138</title>
+      <meta name="generator" content="DocBook XSL Stylesheets V1.79.1"/>
+   </head>
+   <body>
+      <div xml:lang="sk" class="article">
+         <div class="titlepage">
+            <div>
+               <div>
+                  <h2 class="title">
+                     <a id="idm46066961908464"/>
+                        Projekt z PB138
+                  </h2>
+               </div>
+               <div><h3 class="subtitle"><em>Zhrnutie mojej práce na projekte</em></h3></div>
+            </div>
+            <hr/>
+         </div>
+         <div class="toc"><p><strong>Obsah</strong></p><dl class="toc"><dt><span class="sect1"><a href="#idm46066961903264">Zhrnutie práce</a></span></dt><dt><span class="sect1"><a href="#idm46066961901600">Štruktúra xml súboru</a></span></dt><dt><span class="sect1"><a href="#idm46066961899200">Prístup k dátam</a></span></dt></dl></div><span class="author">Adam Laurenčík</span>
+         <div class="sect1">
+            <div class="titlepage">
+               <div>
+                  <div>
+                     <h2 class="title"><a id="idm46066961903264"/>Zhrnutie práce</h2>
+                  </div>
+               </div>
+            </div>
+            <p>           
+       			Na projekte som sa podieľal na tvorbe štruktúry uloženia dát v xml súbore a vytvoreniu pristupovaniu k dátam z aplikácie a tiež sme spolu s ostatnými členmi tímu vytvorili základnú štruktúru projektu využívajúcu Spring Boot.
+            </p>
+         </div>
+         <div class="sect1">
+            <div class="titlepage">
+               <div>
+                  <div>
+                     <h2 class="title"><a id="idm46066961901600"/>Štruktúra xml súboru</h2>
+                  </div>
+               </div>
+            </div>
+            <p>
+               Xml súbor obsahuje informácie ohľadne všetkých tímov z Tipsport Extraligy a všetkých zápasov tímu HC Sparta Praha vrátane zostáv jednotlivých tímov a strelcov gólov a ďalších štatistických údajov.
+            </p>
+         </div>
+         <div class="sect1">
+            <div class="titlepage">
+               <div>
+                  <div>
+                     <h2 class="title"><a id="idm46066961899200"/>Prístup k dátam</h2>
+                  </div>
+               </div>
+            </div>
+            <p>
+              Prísup k datam je realizovaný pomocou DAO(Data Acces Object). K dátam sa pristupuje pomocou DOM xml súboru a Xpath výrazov spracovávajúcim jednotlivé štatistické údaje. Samotný DAO komunikuje s ostatnými vrstvami výhradne pomocou rozhrania čo prináša úroveň abstrakcie voči spôsobu získavania dát. 
+            </p>
+         </div>
+      </div>
+   </body>
+</html>

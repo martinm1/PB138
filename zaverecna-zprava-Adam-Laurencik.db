@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://docbook.org/xml/4.2/docbookx.dtd">
+<article lang="cs">
+  <title>Projekt z PB138</title>
+  <subtitle>Zhrnutie mojej práce na projekte</subtitle>
+	<author>
+		<personname>Adam Laurenčík</personname>
+	</author>
+  <sect1>
+     <title>Zhrnutie práce</title>
+     <para>
+       Na projekte som sa podieľal na tvorbe štruktúry uloženia dát v xml súbore a vytvoreniu pristupovaniu k dátam z aplikácie a tiež sme spolu s ostatnými členmi tímu vytvorili základnú štruktúru projektu využívajúcu Spring Boot.
+	</para>
+  </sect1>
+<sect1>
+      <title>Štruktúra xml súboru</title>
+	<para>
+	Xml súbor obsahuje informácie ohľadne všetkých tímov z Tipsport Extraligy a všetkých zápasov tímu HC Sparta Praha vrátane zostáv jednotlivých tímov a strelcov gólov a ďalších štatistických údajov.
+     </para>
+</sect1>
+<sect1>
+<title>Prístup k dátam</title>
+	<para>
+	Prísup k datam je realizovaný pomocou DAO(Data Acces Object). K dátam sa pristupuje pomocou DOM xml súboru a Xpath výrazov spracovávajúcim jednotlivé štatistické údaje. Samotný DAO komunikuje s ostatnými vrstvami výhradne pomocou rozhrania čo prináša úroveň abstrakcie voči spôsobu získavania dát. 
+	</para>
+</sect1>
+</article>
